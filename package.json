@@ -1,0 +1,13 @@
+{
+  "name": "softwaresorted-site",
+  "version": "1.0.0",
+  "description": "SoftwareSorted — Independent software reviews for UK tradespeople",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "watch": "eleventy --watch"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

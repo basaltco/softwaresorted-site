@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Management Software for CIS & VAT: Which UK Trade Apps Handle It? (2026) — SoftwareSorted</title>
+<meta name="description" content="Which job management software correctly handles CIS reverse charge and Making Tax Digital for UK electricians? Honest comparison of Powered Now, Tradify, and ServiceM8 on compliance.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --black:#0f0f0f;--white:#fafaf8;--ink:#1c1c1c;--muted:#6b6b6b;
+  --border:#e2e0d8;--accent:#d97706;--accent-soft:#fef9ee;
+  --orange-soft:#fff8f0;--red-soft:#fef2f2;--green-soft:#f0fdf4;
+  --font-d:'Fraunces',Georgia,serif;--font-b:'DM Sans',system-ui,sans-serif;
+  --r:6px;--max:760px;
+}
+body{font-family:var(--font-b);background:var(--white);color:var(--ink);line-height:1.7;font-size:16px}
+a{color:var(--accent);text-underline-offset:3px;font-weight:500}
+
+/* ── HEADER & NAV ── */
+header{border-bottom:2px solid var(--black);background:var(--white);position:sticky;top:0;z-index:200}
+.hdr{max-width:var(--max);margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:58px;padding:0 1.5rem}
+.logo{font-family:var(--font-d);font-size:1.2rem;font-weight:700;color:var(--black);text-decoration:none;flex-shrink:0}
+.logo span{color:var(--accent)}
+
+/* Desktop nav */
+.nav{display:flex;gap:0;list-style:none;margin:0}
+.nav>li{position:relative}
+.nav>li>a{display:block;font-size:0.8125rem;font-weight:500;color:var(--muted);text-decoration:none;padding:0.5rem 0.875rem;transition:color 0.15s}
+.nav>li>a:hover{color:var(--black)}
+.nav>li>a.has-dropdown::after{content:'▾';font-size:0.6rem;margin-left:0.3rem;vertical-align:middle}
+
+/* Dropdown */
+.dropdown{display:none;position:absolute;top:100%;left:0;background:var(--white);border:1px solid var(--border);border-top:2px solid var(--accent);border-radius:0 0 var(--r) var(--r);min-width:220px;z-index:300;box-shadow:0 4px 12px rgba(0,0,0,0.08)}
+.nav>li:hover .dropdown{display:block}
+.dropdown a{display:block;padding:0.625rem 1rem;font-size:0.8125rem;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--border);font-weight:400;transition:background 0.1s}
+.dropdown a:last-child{border-bottom:none}
+.dropdown a:hover{background:var(--accent-soft);color:var(--black)}
+.dropdown-label{font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);padding:0.5rem 1rem 0.25rem;display:block}
+
+/* Mobile hamburger */
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:0.5rem;background:none;border:none;margin-left:auto}
+.hamburger span{display:block;width:22px;height:2px;background:var(--black);transition:all 0.25s}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* Mobile menu */
+.mobile-menu{display:none;background:var(--white);border-top:1px solid var(--border);padding:1rem 1.5rem 1.5rem}
+.mobile-menu.open{display:block}
+.mobile-section{margin-bottom:1.25rem}
+.mobile-section-label{font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin-bottom:0.5rem;display:block}
+.mobile-menu a{display:block;font-size:0.9375rem;color:var(--ink);text-decoration:none;padding:0.5rem 0;border-bottom:1px solid var(--border);font-weight:400}
+.mobile-menu a:last-child{border-bottom:none}
+.mobile-menu a:hover{color:var(--accent)}
+
+/* ── MAIN CONTENT ── */
+main{max-width:var(--max);margin:0 auto;padding:2.5rem 1.5rem 5rem}
+.badge{background:var(--accent-soft);border:1px solid #fcd34d;border-radius:var(--r);padding:0.375rem 0.875rem;font-size:0.8rem;color:#92400e;font-weight:500;display:inline-flex;align-items:center;gap:0.4rem;margin-bottom:1.75rem}
+h1{font-family:var(--font-d);font-size:clamp(1.75rem,4vw,2.25rem);font-weight:700;line-height:1.15;letter-spacing:-0.03em;color:var(--black);margin-bottom:1rem}
+h2{font-family:var(--font-d);font-size:1.25rem;font-weight:600;letter-spacing:-0.02em;color:var(--black);margin:2.25rem 0 0.625rem;padding-bottom:0.5rem;border-bottom:1px solid var(--border)}
+h3{font-size:1rem;font-weight:600;color:var(--black);margin:1.5rem 0 0.4rem}
+p{margin-bottom:1rem}
+strong{font-weight:600;color:var(--black)}
+ul,ol{margin:0 0 1rem 1.25rem}
+li{margin-bottom:0.4rem}
+hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+
+/* Tables — with mobile overflow */
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.25rem 0;border-radius:var(--r);border:1px solid var(--border)}
+.table-wrap table{margin:0;border:none;border-radius:0;min-width:480px}
+table{width:100%;border-collapse:collapse;font-size:0.875rem;margin:1.25rem 0;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+th{background:var(--black);color:var(--white);font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;padding:0.6rem 0.875rem;text-align:left;font-weight:600}
+td{padding:0.6rem 0.875rem;border-bottom:1px solid var(--border);vertical-align:top}
+tr:last-child td{border-bottom:none}
+tr:nth-child(even) td{background:#f7f6f2}
+
+/* Callout boxes */
+.verdict{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--r) var(--r) 0;padding:1rem 1.25rem;margin:1.25rem 0}
+.catch{background:var(--orange-soft);border-left:3px solid #f97316;border-radius:0 var(--r) var(--r) 0;padding:1rem 1.25rem;margin:1.25rem 0}
+.not-for{background:var(--red-soft);border-left:3px solid #ef4444;border-radius:0 var(--r) var(--r) 0;padding:1rem 1.25rem;margin:1.25rem 0}
+.highlight{background:var(--green-soft);border-left:3px solid #16a34a;border-radius:0 var(--r) var(--r) 0;padding:1rem 1.25rem;margin:1.25rem 0}
+.catch p:last-child,.verdict p:last-child,.not-for p:last-child,.highlight p:last-child{margin-bottom:0}
+
+/* Cards & grids */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.25rem 0}
+.card{border:1px solid var(--border);border-radius:var(--r);padding:1.25rem}
+.card h3{margin-top:0}
+.tag{display:inline-block;font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;padding:0.2rem 0.5rem;border-radius:3px;margin-bottom:0.5rem}
+.tag-best{background:var(--green-soft);color:#166534}
+.tag-ok{background:var(--accent-soft);color:#92400e}
+.tag-weak{background:var(--red-soft);color:#991b1b}
+.decision{background:#f7f6f2;border:1px solid var(--border);border-radius:var(--r);padding:1.25rem;font-family:'Courier New',monospace;font-size:0.8125rem;line-height:1.9;margin:1.25rem 0;white-space:pre-wrap}
+
+/* Quick facts box */
+.quick-facts{background:#f7f6f2;border:1px solid var(--border);border-radius:var(--r);padding:1.25rem;margin:1.25rem 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:0.75rem}
+.qf-item{display:flex;flex-direction:column;gap:0.2rem}
+.qf-label{font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:var(--muted)}
+.qf-value{font-size:0.9375rem;font-weight:600;color:var(--black)}
+
+/* FAQ */
+.faq{margin:1.25rem 0}
+.faq-item{border-bottom:1px solid var(--border);padding:1rem 0}
+.faq-item:last-child{border-bottom:none}
+.faq-q{font-weight:600;color:var(--black);margin-bottom:0.5rem;font-size:0.9375rem}
+.faq-a{color:var(--ink);font-size:0.9375rem;margin:0}
+
+/* CTA */
+.cta-box{background:var(--black);border-radius:var(--r);padding:1.5rem;margin:2rem 0;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.cta-box p{color:#d4d4d4;margin:0;font-size:0.9rem}
+.cta-btn{background:var(--accent);color:var(--white)!important;padding:0.625rem 1.25rem;border-radius:var(--r);text-decoration:none!important;font-weight:600;font-size:0.9rem;white-space:nowrap;display:inline-block}
+
+/* Related links */
+.related{border-top:1px solid var(--border);margin-top:3rem;padding-top:1.5rem}
+.related-label{font-size:0.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.1em;font-weight:600;margin-bottom:0.75rem}
+.related-links{display:flex;flex-direction:column;gap:0.5rem}
+.related-links a{font-size:0.9375rem;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:0.5rem}
+.related-links a::before{content:'→';color:var(--accent);font-weight:700}
+
+/* Footer */
+footer{border-top:1px solid var(--border);padding:1.75rem 1.5rem;text-align:center;font-size:0.8rem;color:var(--muted)}
+footer a{color:var(--muted)}
+
+/* ── MOBILE ── */
+@media(max-width:680px){
+  .nav{display:none}
+  .hamburger{display:flex}
+  main{padding:2rem 1rem 4rem}
+  h1{font-size:1.625rem;line-height:1.2}
+  h2{font-size:1.125rem}
+  .two-col{grid-template-columns:1fr}
+  .cta-box{flex-direction:column;align-items:flex-start}
+  .quick-facts{grid-template-columns:1fr 1fr}
+  table{font-size:0.8125rem}
+  th,td{padding:0.5rem 0.625rem}
+}
+</style>
+<link rel="canonical" href="https://softwaresorted.co.uk/electricians/job-management-software-cis-vat/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "dateModified": "2026-04-24",
+  "url": "https://softwaresorted.co.uk/electricians/job-management-software-cis-vat/",
+  "headline": "Job Management Software for CIS & VAT: Which UK Trade Apps Handle It? (2026) — SoftwareSorted",
+  "description": "Which job management software correctly handles CIS reverse charge and Making Tax Digital for UK electricians? Honest comparison of Powered Now, Tradify, and ServiceM8 on compliance.",
+  "author": {
+    "@type": "Organization",
+    "name": "SoftwareSorted"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SoftwareSorted",
+    "url": "https://softwaresorted.co.uk"
+  },
+  "datePublished": "2026-04-01"
+}
+</script>
+</head>
+<body>
+<header>
+  <div class="hdr">
+    <a href="/" class="logo">Software<span>Sorted</span></a>
+    <ul class="nav">
+      <li>
+        <a href="/electricians/best-job-management-software">Electricians</a>
+      </li>
+      <li>
+        <a href="#" class="has-dropdown">Reviews</a>
+        <div class="dropdown">
+          <span class="dropdown-label">Individual Reviews</span>
+          <a href="/electricians/tradify-review">Tradify Review</a>
+          <a href="/electricians/powered-now-review">Powered Now Review</a>
+          <a href="/electricians/servicem8-review">ServiceM8 Review</a>
+          <a href="/electricians/jobber-review">Jobber Review</a>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="has-dropdown">Compare</a>
+        <div class="dropdown">
+          <span class="dropdown-label">Head-to-Head</span>
+          <a href="/electricians/tradify-vs-servicem8">Tradify vs ServiceM8</a>
+          <a href="/electricians/tradify-vs-powered-now">Tradify vs Powered Now</a>
+          <a href="/electricians/tradify-vs-jobber">Tradify vs Jobber</a>
+          <a href="/electricians/servicem8-vs-powered-now">ServiceM8 vs Powered Now</a>
+        </div>
+      </li>
+      <li>
+        <a href="/electricians/job-management-software-cis-vat">CIS &amp; VAT</a>
+      </li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="mobile-menu" id="mobile-menu">
+    <div class="mobile-section">
+      <span class="mobile-section-label">Overview</span>
+      <a href="/electricians/best-job-management-software">Best Job Management Software</a>
+      <a href="/electricians/job-management-software-cis-vat">CIS &amp; VAT Guide</a>
+    </div>
+    <div class="mobile-section">
+      <span class="mobile-section-label">Reviews</span>
+      <a href="/electricians/tradify-review">Tradify Review</a>
+      <a href="/electricians/powered-now-review">Powered Now Review</a>
+      <a href="/electricians/servicem8-review">ServiceM8 Review</a>
+      <a href="/electricians/jobber-review">Jobber Review</a>
+    </div>
+    <div class="mobile-section">
+      <span class="mobile-section-label">Compare</span>
+      <a href="/electricians/tradify-vs-servicem8">Tradify vs ServiceM8</a>
+      <a href="/electricians/tradify-vs-powered-now">Tradify vs Powered Now</a>
+      <a href="/electricians/tradify-vs-jobber">Tradify vs Jobber</a>
+      <a href="/electricians/servicem8-vs-powered-now">ServiceM8 vs Powered Now</a>
+    </div>
+  </nav>
+</header>
+<script>
+document.getElementById('hamburger').addEventListener('click',function(){
+  this.classList.toggle('open');
+  document.getElementById('mobile-menu').classList.toggle('open');
+});
+</script>
+
+<main>
+  <div class="badge">✓ Independent review — no sponsored content</div>
+  <h1>Job Management Software for CIS &amp; VAT: Which UK Trade Apps Actually Handle It? (2026)</h1>
+
+  <h2>Quick Verdict</h2>
+  <div class="verdict">
+    <p><strong>Powered Now</strong> is the only tool in this category built from the ground up for UK compliance. CIS deductions and Making Tax Digital are native features, not add-ons. <strong>Tradify</strong> handles CIS invoicing adequately through its Xero connection — usable for most situations, but you need to configure Xero correctly first. <strong>ServiceM8</strong> is an Australian product with limited UK compliance support — domestic-only electrical work is fine, but invoicing VAT-registered contractors under CIS requires manual workarounds that create risk.</p>
+  </div>
+
+  <h2>Why This Matters More Than Most Reviews Acknowledge</h2>
+  <p>Getting CIS invoicing wrong isn't an accounting inconvenience — it's a tax liability. If you're a VAT-registered subcontractor working under CIS and you issue a standard VAT invoice to a contractor who expects a domestic reverse charge invoice, you've created a VAT problem that isn't yours to hold. The contractor will reject the invoice, you'll need to reissue it correctly, and depending on your volume and how long it's been happening, your accountant will have questions.</p>
+  <p>The domestic reverse charge applies when: you're both VAT-registered, the work is within the scope of CIS, and the end customer is not the customer — meaning the contractor you're invoicing is going to sell on the service. That last condition is where it gets granular. Mixed jobs — an electrician who installs a security system and does some general lighting on the same visit — may only partially fall under reverse charge depending on the split. Most job management software doesn't help you navigate that. It produces the invoice format you configure it to produce, and it's on you to configure it correctly.</p>
+
+  <h2>What the Compliance Comparison Actually Shows</h2>
+
+  <div class="card" style="margin:1rem 0">
+    <span class="tag tag-best">Strongest UK compliance</span>
+    <h3>Powered Now</h3>
+    <p>The CIS deduction calculation is built into the invoicing workflow. As a subcontractor, you configure your CIS registration status once, and the correct deduction rate applies automatically to qualifying invoices. The domestic reverse charge invoice format is built in — the correct HMRC-required wording ("Reverse charge — customer to account for VAT to HMRC") applies automatically on reverse charge jobs without manual editing. MTD-compatible as standard.</p>
+    <p>The certificate library is the other significant advantage: Electrical Installation Certificates, EICRs, and Minor Works are produced within the same system as your invoices. One workflow from job completion to certificate delivery to invoice raised. For electricians doing compliance-heavy work — HMO inspections, commercial rewires, new social housing electrical work — this is a meaningful reduction in admin friction.</p>
+    <p>Works fully offline — useful for commercial sites where you can't access the internet to look up CIS rates or invoice formats mid-job.</p>
+    <a href="/electricians/powered-now-review">Full Powered Now review →</a>
+  </div>
+
+  <div class="card" style="margin:1rem 0">
+    <span class="tag tag-ok">Solid via Xero</span>
+    <h3>Tradify</h3>
+    <p>Tradify handles CIS through its Xero integration rather than natively. Create a CIS-format invoice in Tradify, push it to Xero, and Xero manages the deduction recording and reporting. This works — but it requires that Xero has been configured correctly for domestic reverse charge first. Xero requires four specific VAT codes to be set up manually for DRC: if your accountant hasn't done this, the invoices won't be formatted or categorised correctly when they arrive in Xero.</p>
+    <p>Ask your accountant directly: "Have you set up the domestic reverse charge VAT codes in Xero?" If they have, Tradify's CIS workflow is adequate for most situations. If they haven't, it's a 30-minute setup task, but you need to do it before you rely on the integration for compliance.</p>
+    <p>MTD compliance comes via Xero's Making Tax Digital submissions rather than Tradify directly — again, this works but means Xero needs to be set up correctly as the MTD hub.</p>
+    <a href="/electricians/tradify-review">Full Tradify review →</a>
+  </div>
+
+  <div class="card" style="margin:1rem 0">
+    <span class="tag tag-weak">Weakest UK compliance</span>
+    <h3>ServiceM8</h3>
+    <p>ServiceM8 is an Australian product. UK compliance features — CIS reverse charge invoice formatting, MTD — are not built into the core product and require manual configuration and workarounds. For domestic-only electrical work where reverse charge never applies, ServiceM8's standard VAT handling is fine. For any work where you're invoicing a VAT-registered contractor under CIS, the correct invoice wording requires manual editing every time — which means it's only as reliable as the person editing it.</p>
+    <p>If your work is exclusively domestic — consumer units, rewires, kitchen installations, landlord certification for direct clients — ServiceM8's compliance limitations don't affect you. If you do any volume of commercial or subcontract work, they do.</p>
+  </div>
+
+  <h2>What HMRC Requires on a CIS Reverse Charge Invoice</h2>
+  <p>When the domestic reverse charge applies, your invoice must include all the standard VAT invoice information, plus:</p>
+  <ul>
+    <li>A clear statement that the domestic reverse charge applies</li>
+    <li>The VAT amount the customer needs to account for (even though you're not charging it)</li>
+    <li>A statement that the customer is required to account for the VAT to HMRC</li>
+  </ul>
+  <div class="highlight">
+    <p><strong>Required wording (HMRC-approved):</strong> "Reverse charge — customer to account for VAT to HMRC at the applicable rate."</p>
+    <p style="margin-top:0.5rem;margin-bottom:0">Powered Now applies this automatically on configured reverse charge jobs. Tradify requires Xero to be set up with the correct DRC VAT codes. ServiceM8 requires manual editing of the invoice text every time.</p>
+  </div>
+
+  <h2>The Decision Framework</h2>
+  <div class="decision">Are you VAT-registered AND working as a subcontractor for VAT-registered contractors?
+│
+├── YES → Does reverse charge apply to most of your invoices?
+│         │
+│         ├── YES (regular commercial/subcontract work)
+│         │   → Powered Now (built for this natively)
+│         │   → Tradify + correctly configured Xero (works but needs setup)
+│         │
+│         └── OCCASIONALLY (mostly domestic, some commercial)
+│             → Tradify handles it via Xero
+│             → Check each job individually — the 5% threshold applies
+│
+└── NO (domestic work only, direct to homeowners/landlords)
+    → Reverse charge doesn't apply to you
+    → Standard VAT invoicing — any tool works fine</div>
+
+  <h2>The One Question to Ask Your Accountant</h2>
+  <p>Before choosing a tool based on compliance: ask your accountant whether domestic reverse charge currently applies to any of your invoices, and whether your Xero (or Sage, or QuickBooks) is configured with the correct VAT codes for it. If they're not sure, that's worth resolving before you build a workflow around any job management tool — because the software is only as compliant as the accounting setup behind it.</p>
+
+  <h2>Who This Guide Is NOT For</h2>
+  <div class="not-for">
+    <p>Sole traders doing domestic-only work — consumer units, rewires, kitchen circuits, landlord EICRs for direct landlord clients. If you invoice homeowners and landlords directly, you're not caught by the domestic reverse charge regardless of your VAT registration status. Standard VAT invoicing applies and any tool in this category handles it without configuration. This guide is relevant only when you're working as a subcontractor under CIS and invoicing other VAT-registered businesses for construction services.</p>
+  </div>
+
+  <div class="two-col" style="margin-top:2rem">
+    <div class="cta-box">
+      <p>Powered Now — best for CIS compliance, free trial</p>
+      <a href="https://powerednow.com/" class="cta-btn">Try Powered Now →</a>
+    </div>
+    <div class="cta-box">
+      <p>Tradify — solid CIS via Xero, free trial</p>
+      <a href="https://www.tradifyhq.com/uk" class="cta-btn">Try Tradify →</a>
+    </div>
+  </div>
+
+  <h2>Managing EICR Jobs and Engineer Allocation</h2>
+  <p>Several UK electricians searching for software describe a specific combined need — producing EICR certificates while simultaneously managing which engineer is assigned to which job, tracking certifications, and ensuring the right qualified person is dispatched. This is a more specific requirement than basic job management and not all tools handle it equally.</p>
+  <p><strong>Powered Now</strong> is the strongest option for this combination. EICR certificates are built into the job workflow — create the job, assign the engineer, complete the certificate on-site, and invoice from the same system. Engineer profiles can hold certification records so you always know who is qualified for what type of inspection.</p>
+  <p><strong>Tradify</strong> handles the scheduling and allocation side well — the calendar view makes it straightforward to see who is available and assign jobs accordingly. It doesn't produce EICR certificates natively, so you'd need a separate tool for the certificate itself.</p>
+  <p><strong>Jobber</strong> has the strongest scheduling and dispatch features in the category — route optimisation, skills-based assignment, real-time crew view. For larger electrical teams doing high volumes of EICR work, the combination of Jobber for scheduling and a dedicated certificate app (like Cert Checker or Elecsa) is worth considering.</p>
+  <p>If EICR certification and engineer allocation need to live in the same system, Powered Now is the only tool reviewed here that handles both natively.</p>
+
+
+  <div class="related">
+    <p class="related-label">Read next</p>
+    <div class="related-links">
+      <a href="/electricians/powered-now-review">Powered Now full review — compliance, certificates, offline</a>
+      <a href="/electricians/tradify-review">Tradify full review — quoting, Xero sync, workflow</a>
+      <a href="/electricians/best-job-management-software">Best job management software — full guide</a>
+            <a href="/electricians/servicem8-review">ServiceM8 full review</a>
+      <a href="/electricians/tradify-vs-powered-now">Tradify vs Powered Now</a>
+      <a href="/electricians/servicem8-vs-powered-now">ServiceM8 vs Powered Now</a>
+            <a href="/electricians/jobber-review">Jobber review</a>
+    </div>
+  </div>
+</main>
+<footer>
+  <p>© 2026 SoftwareSorted · Independent software reviews for UK tradespeople · <a href="/">Home</a></p>
+  <p style="margin-top:0.4rem">Some links are affiliate links. We may earn a small commission if you sign up — at no extra cost to you. This never influences our reviews.</p>
+</footer>
+</body>
+</html>

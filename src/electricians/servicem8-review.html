@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ServiceM8 Review 2026: Is It Worth It for UK Electricians? — SoftwareSorted</title>
+<meta name="description" content="Honest ServiceM8 review for UK electricians. Per-job pricing explained, Android limitations, client automation, CIS compliance gaps, and who it actually suits.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --black:#0f0f0f;--white:#fafaf8;--ink:#1c1c1c;--muted:#6b6b6b;
+  --border:#e2e0d8;--accent:#d97706;--accent-soft:#fef9ee;
+  --orange-soft:#fff8f0;--red-soft:#fef2f2;--green-soft:#f0fdf4;
+  --font-d:'Fraunces',Georgia,serif;--font-b:'DM Sans',system-ui,sans-serif;
+  --r:6px;--max:760px;
+}
+body{font-family:var(--font-b);background:var(--white);color:var(--ink);line-height:1.7;font-size:16px}
+a{color:var(--accent);text-underline-offset:3px;font-weight:500}
+
+/* ── HEADER & NAV ── */
+header{border-bottom:2px solid var(--black);background:var(--white);position:sticky;top:0;z-index:200}
+.hdr{max-width:var(--max);margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:58px;padding:0 1.5rem}
+.logo{font-family:var(--font-d);font-size:1.2rem;font-weight:700;color:var(--black);text-decoration:none;flex-shrink:0}
+.logo span{color:var(--accent)}
+
+/* Desktop nav */
+.nav{display:flex;gap:0;list-style:none;margin:0}
+.nav>li{position:relative}
+.nav>li>a{display:block;font-size:0.8125rem;font-weight:500;color:var(--muted);text-decoration:none;padding:0.5rem 0.875rem;transition:color 0.15s}
+.nav>li>a:hover{color:var(--black)}
+.nav>li>a.has-dropdown::after{content:'▾';font-size:0.6rem;margin-left:0.3rem;vertical-align:middle}
+
+/* Dropdown */
+.dropdown{display:none;position:absolute;top:100%;left:0;background:var(--white);border:1px solid var(--border);border-top:2px solid var(--accent);border-radius:0 0 var(--r) var(--r);min-width:220px;z-index:300;box-shadow:0 4px 12px rgba(0,0,0,0.08)}
+.nav>li:hover .dropdown{display:block}
+.dropdown a{display:block;padding:0.625rem 1rem;font-size:0.8125rem;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--border);font-weight:400;transition:background 0.1s}
+.dropdown a:last-child{border-bottom:none}
+.dropdown a:hover{background:var(--accent-soft);color:var(--black)}
+.dropdown-label{font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);padding:0.5rem 1rem 0.25rem;display:block}
+
+/* Mobile hamburger */
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:0.5rem;background:none;border:none;margin-left:auto}
+.hamburger span{display:block;width:22px;height:2px;background:var(--black);transition:all 0.25s}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* Mobile menu */
+.mobile-menu{display:none;background:var(--white);border-top:1px solid var(--border);padding:1rem 1.5rem 1.5rem}
+.mobile-menu.open{display:block}
+.mobile-section{margin-bottom:1.25rem}
+.mobile-section-label{font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin-bottom:0.5rem;display:block}
+.mobile-menu a{display:block;font-size:0.9375rem;color:var(--ink);text-decoration:none;padding:0.5rem 0;border-bottom:1px solid var(--border);font-weight:400}
+.mobile-menu a:last-child{border-bottom:none}
+.mobile-menu a:hover{color:var(--accent)}
+
+/* ── MAIN CONTENT ── */
+main{max-width:var(--max);margin:0 auto;padding:2.5rem 1.5rem 5rem}
+.badge{background:var(--accent-soft);border:1px solid #fcd34d;border-radius:var(--r);padding:0.375rem 0.875rem;font-size:0.8rem;color:#92400e;font-weight:500;display:inline-flex;align-items:center;gap:0.4rem;margin-bottom:1.75rem}
+h1{font-family:var(--font-d);font-size:clamp(1.75rem,4vw,2.25rem);font-weight:700;line-height:1.15;letter-spacing:-0.03em;color:var(--black);margin-bottom:1rem}
+h2{font-family:var(--font-d);font-size:1.25rem;font-weight:600;letter-spacing:-0.02em;color:var(--black);margin:2.25rem 0 0.625rem;padding-bottom:0.5rem;border-bottom:1px solid var(--border)}
+h3{font-size:1rem;font-weight:600;color:var(--black);margin:1.5rem 0 0.4rem}
+p{margin-bottom:1rem}
+strong{font-weight:600;color:var(--black)}
+ul,ol{margin:0 0 1rem 1.25rem}
+li{margin-bottom:0.4rem}
+hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+
+/* Tables — with mobile overflow */
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.25rem 0;border-radius:var(--r);border:1px solid var(--border)}
+.table-wrap table{margin:0;border:none;border-radius:0;min-width:480px}
+table{width:100%;border-collapse:collapse;font-size:0.875rem;margin:1.25rem 0;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+th{background:var(--black);color:var(--white);font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;padding:0.6rem 0.875rem;text-align:left;font-weight:600}
+td{padding:0.6rem 0.875rem;border-bottom:1px solid var(--border);vertical-align:top}
+tr:last-child td{border-bottom:none}
+tr:nth-child(even) td{background:#f7f6f2}
+
+/* Callout boxes */
+.verdict{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--r) var(--r) 0;padding:1rem 1.25rem;margin:1.25rem 0}
+.catch{background:var(--orange-soft);border-left:3px solid #f97316;border-radius:0 var(--r) var(--r) 0;padding:1rem 1.25rem;margin:1.25rem 0}
+.not-for{background:var(--red-soft);border-left:3px solid #ef4444;border-radius:0 var(--r) var(--r) 0;padding:1rem 1.25rem;margin:1.25rem 0}
+.highlight{background:var(--green-soft);border-left:3px solid #16a34a;border-radius:0 var(--r) var(--r) 0;padding:1rem 1.25rem;margin:1.25rem 0}
+.catch p:last-child,.verdict p:last-child,.not-for p:last-child,.highlight p:last-child{margin-bottom:0}
+
+/* Cards & grids */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.25rem 0}
+.card{border:1px solid var(--border);border-radius:var(--r);padding:1.25rem}
+.card h3{margin-top:0}
+.tag{display:inline-block;font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;padding:0.2rem 0.5rem;border-radius:3px;margin-bottom:0.5rem}
+.tag-best{background:var(--green-soft);color:#166534}
+.tag-ok{background:var(--accent-soft);color:#92400e}
+.tag-weak{background:var(--red-soft);color:#991b1b}
+.decision{background:#f7f6f2;border:1px solid var(--border);border-radius:var(--r);padding:1.25rem;font-family:'Courier New',monospace;font-size:0.8125rem;line-height:1.9;margin:1.25rem 0;white-space:pre-wrap}
+
+/* Quick facts box */
+.quick-facts{background:#f7f6f2;border:1px solid var(--border);border-radius:var(--r);padding:1.25rem;margin:1.25rem 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:0.75rem}
+.qf-item{display:flex;flex-direction:column;gap:0.2rem}
+.qf-label{font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:var(--muted)}
+.qf-value{font-size:0.9375rem;font-weight:600;color:var(--black)}
+
+/* FAQ */
+.faq{margin:1.25rem 0}
+.faq-item{border-bottom:1px solid var(--border);padding:1rem 0}
+.faq-item:last-child{border-bottom:none}
+.faq-q{font-weight:600;color:var(--black);margin-bottom:0.5rem;font-size:0.9375rem}
+.faq-a{color:var(--ink);font-size:0.9375rem;margin:0}
+
+/* CTA */
+.cta-box{background:var(--black);border-radius:var(--r);padding:1.5rem;margin:2rem 0;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.cta-box p{color:#d4d4d4;margin:0;font-size:0.9rem}
+.cta-btn{background:var(--accent);color:var(--white)!important;padding:0.625rem 1.25rem;border-radius:var(--r);text-decoration:none!important;font-weight:600;font-size:0.9rem;white-space:nowrap;display:inline-block}
+
+/* Related links */
+.related{border-top:1px solid var(--border);margin-top:3rem;padding-top:1.5rem}
+.related-label{font-size:0.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.1em;font-weight:600;margin-bottom:0.75rem}
+.related-links{display:flex;flex-direction:column;gap:0.5rem}
+.related-links a{font-size:0.9375rem;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:0.5rem}
+.related-links a::before{content:'→';color:var(--accent);font-weight:700}
+
+/* Footer */
+footer{border-top:1px solid var(--border);padding:1.75rem 1.5rem;text-align:center;font-size:0.8rem;color:var(--muted)}
+footer a{color:var(--muted)}
+
+/* ── MOBILE ── */
+@media(max-width:680px){
+  .nav{display:none}
+  .hamburger{display:flex}
+  main{padding:2rem 1rem 4rem}
+  h1{font-size:1.625rem;line-height:1.2}
+  h2{font-size:1.125rem}
+  .two-col{grid-template-columns:1fr}
+  .cta-box{flex-direction:column;align-items:flex-start}
+  .quick-facts{grid-template-columns:1fr 1fr}
+  table{font-size:0.8125rem}
+  th,td{padding:0.5rem 0.625rem}
+}
+</style>
+<link rel="canonical" href="https://softwaresorted.co.uk/electricians/servicem8-review/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "dateModified": "2026-04-24",
+  "url": "https://softwaresorted.co.uk/electricians/servicem8-review/",
+  "headline": "ServiceM8 Review 2026: Is It Worth It for UK Electricians? — SoftwareSorted",
+  "description": "Honest ServiceM8 review for UK electricians. Per-job pricing explained, Android limitations, client automation, CIS compliance gaps, and who it actually suits.",
+  "itemReviewed": {
+    "@type": "SoftwareApplication",
+    "name": "ServiceM8"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "SoftwareSorted"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SoftwareSorted",
+    "url": "https://softwaresorted.co.uk"
+  },
+  "datePublished": "2026-04-01"
+}
+</script>
+</head>
+<body>
+<header>
+  <div class="hdr">
+    <a href="/" class="logo">Software<span>Sorted</span></a>
+    <ul class="nav">
+      <li>
+        <a href="/electricians/best-job-management-software">Electricians</a>
+      </li>
+      <li>
+        <a href="#" class="has-dropdown">Reviews</a>
+        <div class="dropdown">
+          <span class="dropdown-label">Individual Reviews</span>
+          <a href="/electricians/tradify-review">Tradify Review</a>
+          <a href="/electricians/powered-now-review">Powered Now Review</a>
+          <a href="/electricians/servicem8-review">ServiceM8 Review</a>
+          <a href="/electricians/jobber-review">Jobber Review</a>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="has-dropdown">Compare</a>
+        <div class="dropdown">
+          <span class="dropdown-label">Head-to-Head</span>
+          <a href="/electricians/tradify-vs-servicem8">Tradify vs ServiceM8</a>
+          <a href="/electricians/tradify-vs-powered-now">Tradify vs Powered Now</a>
+          <a href="/electricians/tradify-vs-jobber">Tradify vs Jobber</a>
+          <a href="/electricians/servicem8-vs-powered-now">ServiceM8 vs Powered Now</a>
+        </div>
+      </li>
+      <li>
+        <a href="/electricians/job-management-software-cis-vat">CIS &amp; VAT</a>
+      </li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="mobile-menu" id="mobile-menu">
+    <div class="mobile-section">
+      <span class="mobile-section-label">Overview</span>
+      <a href="/electricians/best-job-management-software">Best Job Management Software</a>
+      <a href="/electricians/job-management-software-cis-vat">CIS &amp; VAT Guide</a>
+    </div>
+    <div class="mobile-section">
+      <span class="mobile-section-label">Reviews</span>
+      <a href="/electricians/tradify-review">Tradify Review</a>
+      <a href="/electricians/powered-now-review">Powered Now Review</a>
+      <a href="/electricians/servicem8-review">ServiceM8 Review</a>
+      <a href="/electricians/jobber-review">Jobber Review</a>
+    </div>
+    <div class="mobile-section">
+      <span class="mobile-section-label">Compare</span>
+      <a href="/electricians/tradify-vs-servicem8">Tradify vs ServiceM8</a>
+      <a href="/electricians/tradify-vs-powered-now">Tradify vs Powered Now</a>
+      <a href="/electricians/tradify-vs-jobber">Tradify vs Jobber</a>
+      <a href="/electricians/servicem8-vs-powered-now">ServiceM8 vs Powered Now</a>
+    </div>
+  </nav>
+</header>
+<script>
+document.getElementById('hamburger').addEventListener('click',function(){
+  this.classList.toggle('open');
+  document.getElementById('mobile-menu').classList.toggle('open');
+});
+</script>
+
+<main>
+  <div class="badge">✓ Independent review — no sponsored content</div>
+  <h1>ServiceM8 Review 2026: Is It Worth It for UK Electricians?</h1>
+  <div class="quick-facts">
+    <div class="qf-item"><span class="qf-label">Starting price</span><span class="qf-value">~£9/mo (15 jobs)</span></div>
+    <div class="qf-item"><span class="qf-label">Free trial</span><span class="qf-value">14 days, no card</span></div>
+    <div class="qf-item"><span class="qf-label">Android app</span><span class="qf-value">⚠️ Lite only</span></div>
+    <div class="qf-item"><span class="qf-label">iOS app</span><span class="qf-value">✅ Full featured</span></div>
+    <div class="qf-item"><span class="qf-label">EICR certificates</span><span class="qf-value">❌ Not included</span></div>
+    <div class="qf-item"><span class="qf-label">CIS support</span><span class="qf-value">❌ Manual only</span></div>
+    <div class="qf-item"><span class="qf-label">Client automation</span><span class="qf-value">✅ Best in class</span></div>
+    <div class="qf-item"><span class="qf-label">Best for</span><span class="qf-value">iOS-only teams</span></div>
+  </div>
+
+  <h2>Quick Verdict</h2>
+  <div class="verdict">
+    <p>ServiceM8 is genuinely excellent software — clean, fast, and packed with automation features that the competition hasn't matched. The client communication tools alone are worth the price for businesses doing high volumes of domestic work. But there is one constraint that matters more than anything else when you're assessing this for a UK electrical team: <strong>Android users get a significantly stripped-down app</strong>. Time tracking is iOS-only. Several features that work on iPhone either don't exist or don't work properly on Android. One Capterra reviewer reported switching their entire team from Android to iPhone to use ServiceM8 properly. That's the decision you're looking at if any of your engineers are on Android.</p>
+    <p>If everyone is on iPhone — and you can guarantee that stays true as you hire — ServiceM8 is hard to beat at this price. If not, Tradify is the more practical choice.</p>
+  </div>
+
+  <h2>What ServiceM8 Actually Does</h2>
+  <p>ServiceM8 is an Australian-built field service management platform that's been running since 2010 and has accumulated a large user base in the UK trades market. The core workflow covers the full job lifecycle: online booking, quoting, job assignment, scheduling, real-time field updates, invoicing, and payment collection. What makes it stand out is the automation layer on top — ServiceM8 can automatically send clients an "on my way" text when an engineer leaves the depot, a job completion summary when work is finished, and follow-up messages at configurable intervals. That level of automated client communication is more sophisticated than anything Tradify or Powered Now currently offer.</p>
+  <p>The custom forms builder is the other headline feature. You can build detailed site documentation forms — risk assessments, job-specific checklists, compliance sign-offs — from scratch using a drag-and-drop interface. For electrical contractors who need to document specific site conditions or client sign-offs beyond standard certificates, it's significantly more flexible than Tradify's basic forms. Assets management lets you track installed equipment at each client site — useful for maintenance contracts where you need a record of what's been fitted and when it was last serviced.</p>
+  <p>The scheduling board uses a drag-and-drop calendar with real-time engineer location visibility, colour-coded job statuses, and the ability to reassign jobs instantly when plans change. Jobs are cached locally while offline and sync automatically once signal returns — which gives it a degree of offline resilience, though it's not the same as Powered Now's full offline mode.</p>
+
+  <h2>Pricing: What You Actually Pay</h2>
+<div class="table-wrap">  <table>
+    <tr><th>Plan</th><th>Price</th><th>Jobs/month included</th><th>Best for</th></tr>
+    <tr><td><strong>Starter</strong></td><td>~£9/mo</td><td>15 jobs</td><td>Very light use, testing</td></tr>
+    <tr><td><strong>Growing</strong></td><td>~£29/mo</td><td>50 jobs</td><td>Sole traders, low volume</td></tr>
+    <tr><td><strong>Premium</strong></td><td>~£59/mo</td><td>150 jobs</td><td>Small teams, regular volume</td></tr>
+    <tr><td><strong>Premium Plus</strong></td><td>~£99/mo</td><td>500 jobs</td><td>Busier operations</td></tr>
+  </table>
+</div>
+  <p>Pricing is per account, not per user — meaning unlimited staff can be added at any tier, which compares favourably to Tradify's per-user model for larger teams. Jobs are counted per completed job, not per user. The catch is that a busy month costs more than a quiet one, which makes forward budgeting harder. At 200+ jobs per month, the per-job cost adds up and Tradify's flat rate becomes more economical.</p>
+  <p>Additional costs to factor in: SMS credits are charged separately (10p per SMS on lower tiers), the ServiceM8 phone system is an additional ~£19/mo, and extra file storage is paid on top. The 14-day free trial gives full access to all features — enough time to run real jobs through it and assess fit.</p>
+  <p>One pricing note worth knowing: a Capterra reviewer reported that after paying a Gold Partner to migrate their data and customise their account, the price for the phone service they intended to activate had doubled by the time setup was complete. Confirm all add-on costs in writing before committing to any paid implementation work.</p>
+
+  <h2>How It Works on a Real Job</h2>
+  <p>A property management company calls to book an emergency callout — a distribution board issue at a commercial unit. Here's how ServiceM8 handles it from that call to payment:</p>
+  <p>The call comes through ServiceM8's phone integration, which logs it automatically and creates a new job record. You assign it to your nearest available engineer on the scheduling board, who receives an instant notification on their iPhone with the job address, client details, and any site notes. ServiceM8 automatically sends the client a text confirming the booking and estimated arrival window. When your engineer leaves the depot, another automated text goes to the client: "Your engineer James is on his way, estimated arrival 2:15pm." The client gets GPS tracking in some configurations.</p>
+  <p>On-site, the engineer opens the job on their iPhone, views all the details, logs time, takes photos, and fills in any custom forms you've set up for this job type. When the work is done, the client signs off digitally on the engineer's phone. ServiceM8 generates the invoice automatically from the completed job record, the client receives it by email, and they can pay by card via the integrated payment link. The whole job — from initial call to payment — is documented in one place without a single piece of paper.</p>
+  <p>That workflow is where ServiceM8 earns its reputation. The automation is genuinely impressive for a tool at this price point. The gap for UK electricians is the compliance layer: ServiceM8 doesn't produce EICR certificates, Minor Works, or handle CIS reverse charge invoicing natively. Those still require a separate system or manual process.</p>
+
+  <h2>The Catch</h2>
+  <div class="catch">
+    <p><strong>Android is a genuine operational problem.</strong> The Android app is significantly reduced compared to iOS. Time tracking is not available on Android at all — it's iOS-only. Several reviewers on Trustpilot and Capterra have flagged this directly. One Capterra reviewer stated their business switched all field engineers from Android to iPhone to use ServiceM8 properly, with ServiceM8 contributing to the device cost. A Trustpilot reviewer who moved from iPhone to Android wrote that the Android app had "barely any functions that the Apple one does." This is a long-standing limitation that reflects ServiceM8's iOS-first development priorities. If any of your engineers are on Android, they cannot use the full product.</p>
+    <p><strong>Per-job pricing becomes expensive at volume.</strong> At 200+ jobs per month across a team, the monthly cost climbs significantly. Tradify at £34/user/month is cheaper at higher job volumes. Budget carefully if your job count varies seasonally — a busy summer month could cost materially more than a quiet winter one.</p>
+    <p><strong>No UK compliance certificates.</strong> EICRs, Minor Works, and Electrical Installation Certificates are not included. UK CIS reverse charge invoicing requires manual configuration. ServiceM8 is an Australian product and UK-specific compliance is not a core development priority. For compliance-heavy electrical work, this is a meaningful gap.</p>
+    <p><strong>Recurring jobs have a scheduling quirk.</strong> Multiple Software Advice reviewers have noted that recurring jobs are calculated on 24-hour periods rather than working hours, which causes them to appear incorrectly in the calendar when a job spans multiple consecutive days. The display confuses both field engineers and clients. It's a minor but persistent bug.</p>
+  </div>
+
+  <h2>How It Compares</h2>
+  <p>Against <strong>Tradify</strong>: ServiceM8's client automation and custom forms are more powerful. Tradify's Android support, Xero integration, and flat pricing are more practical for most UK electrical teams. The decision comes down to device consistency — if your team is all iPhone, ServiceM8 is worth serious consideration. If not, Tradify is the lower-risk choice.</p>
+  <p>Against <strong>Powered Now</strong>: ServiceM8 wins on automation and forms flexibility. Powered Now wins comprehensively on UK compliance — CIS, MTD, and native electrical certificates. For electricians who regularly produce EICRs or work as subcontractors under CIS, Powered Now addresses requirements that ServiceM8 simply doesn't support natively.</p>
+
+  <h2>The Tradesman's Math</h2>
+  <p>On the Growing plan at ~£29/mo for 50 jobs: roughly 32 minutes of admin saved per week at a £55/hr rate to break even. The automated client communications alone — no-show reduction from "on my way" texts, faster payment from automated invoice follow-ups — realistically cover that. One Trustpilot reviewer reported saving 20–30 hours of admin per week, which is at the high end but consistent with what teams transitioning from paper and phone-based coordination typically experience in the first few months.</p>
+  <p>The maths shifts at higher volumes. At 200 jobs per month, you're into the Premium Plus tier at ~£99/mo. At that point the break-even is closer to two hours of weekly admin saved — still achievable, but worth verifying against your actual job complexity rather than assuming.</p>
+
+  <h2>Who This Is NOT For</h2>
+  <div class="not-for">
+    <p><strong>Any team with Android users.</strong> Unless you're prepared to standardise on iPhone — and factor in the device cost — ServiceM8's Android limitations mean your engineers won't have access to time tracking and other core features. Don't assume you'll work around it; the reviews suggest the workarounds are frustrating.</p>
+    <p><strong>Electricians who regularly produce compliance certificates.</strong> EICRs, Minor Works, Electrical Installation Certificates — not in ServiceM8. You'll need Powered Now or a separate certificate tool alongside it.</p>
+    <p><strong>Subcontractors working under CIS with VAT-registered clients.</strong> CIS reverse charge invoicing requires manual setup and doesn't have the native HMRC-compliant wording built in. Powered Now handles this properly.</p>
+    <p><strong>High-volume operations where job count varies significantly month to month.</strong> The per-job pricing model makes cashflow forecasting less predictable. Tradify's flat rate is easier to budget around.</p>
+  </div>
+
+  <div class="cta-box">
+    <p>14-day free trial — full access, no card required. Enough time to run real jobs through it.</p>
+    <a href="https://www.servicem8.com/uk/" class="cta-btn">Try ServiceM8 free →</a>
+  </div>
+
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq">
+    <div class="faq-item">
+      <p class="faq-q">Does ServiceM8 work on Android?</p>
+      <p class="faq-a">ServiceM8 has an Android app but it's a lite version — time tracking is iOS-only, and several features available on iPhone don't appear or work differently on Android. One Capterra reviewer reported switching their entire team from Android to iPhone to use ServiceM8 properly. If any team member uses Android, this is a serious constraint.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">How does ServiceM8 pricing work?</p>
+      <p class="faq-a">ServiceM8 charges per job completed per month, not per user. Plans start at ~£9/mo for 15 jobs and scale up with job volume. This is cheaper than competitors at low job volumes but becomes expensive at high volumes. A busy month costs more than a quiet one, which makes forward budgeting harder.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">Does ServiceM8 handle CIS or EICR certificates?</p>
+      <p class="faq-a">No. ServiceM8 is an Australian product and UK compliance features — CIS reverse charge invoicing, EICR certificates, Making Tax Digital — are not built in. For domestic-only work this rarely matters. For any compliance-heavy or subcontractor work, Powered Now is the appropriate tool.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">Is ServiceM8 good for UK electricians?</p>
+      <p class="faq-a">For iOS-only teams doing high volumes of domestic work, yes — the client automation and custom forms are genuinely excellent. For anyone with Android users, compliance certificate requirements, or CIS work, it's the wrong tool. Tradify or Powered Now serve most UK electrical businesses better.</p>
+    </div>
+  </div>
+  <div class="related">
+    <p class="related-label">Read next</p>
+    <div class="related-links">
+      <a href="/electricians/tradify-vs-servicem8">Tradify vs ServiceM8 — head-to-head comparison</a>
+      <a href="/electricians/servicem8-vs-powered-now">ServiceM8 vs Powered Now — compliance comparison</a>
+      <a href="/electricians/tradify-review">Tradify full review — the Android-friendly alternative</a>
+      <a href="/electricians/job-management-software-cis-vat">Which tools handle CIS reverse charge correctly?</a>
+    
+      <a href="/electricians/tradify-vs-powered-now">Tradify vs Powered Now</a>
+            <a href="/electricians/jobber-review">Jobber review — another alternative</a>
+      <a href="/electricians/tradify-vs-jobber">Tradify vs Jobber</a>
+    </div>
+  </div>
+</main>
+<footer>
+  <p>© 2026 SoftwareSorted · Independent software reviews for UK tradespeople · <a href="/">Home</a></p>
+  <p style="margin-top:0.4rem">Some links are affiliate links. We may earn a small commission if you sign up — at no extra cost to you. This never influences our reviews.</p>
+</footer>
+</body>
+</html>
