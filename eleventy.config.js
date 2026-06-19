@@ -3,6 +3,10 @@ module.exports = function (eleventyConfig) {
   // Object syntax is relative to project root (string form would be relative to src/).
   eleventyConfig.addPassthroughCopy({ "CNAME": "CNAME" });
 
+  // Explicitly passthrough favicon files so they land at /_site root.
+  eleventyConfig.addPassthroughCopy("src/favicon.ico");
+  eleventyConfig.addPassthroughCopy("src/favicon.svg");
+
   return {
     dir: {
       input: "src",
