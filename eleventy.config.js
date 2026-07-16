@@ -7,6 +7,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
   eleventyConfig.addPassthroughCopy("src/favicon.svg");
 
+  // robots.txt is plain text — pass through rather than templating.
+  eleventyConfig.addPassthroughCopy("src/robots.txt");
+
   return {
     dir: {
       input: "src",
