@@ -7,7 +7,8 @@ page" is not an exemption.
 
 ## Before creating or editing any page
 
-1. `../venture-os/AGENTS.md` and `../venture-os/CLAUDE.md`, in full
+1. `../venture-os/AGENTS.md`, in full — the canonical framework (`CLAUDE.md` and `GEMINI.md`
+   there are thin pointers to it, not separate rulesets)
 2. `../venture-os/principles.md` — 7 non-negotiable principles
 3. `../venture-os/ventures/softwaresorted/` — `config.json`, `context.md`, `voice-guide.md`,
    `visual-standards.md`, `learnings.md` (whichever exist)
