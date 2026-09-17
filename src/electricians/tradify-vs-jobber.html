@@ -244,7 +244,6 @@ document.getElementById('hamburger').addEventListener('click',function(){
   <p>The practical differences that matter most: pricing model, Xero vs QuickBooks integration quality, client-facing features, and where the value crossover point sits for your team size.</p>
 
   <h2>Feature Comparison</h2>
-  <!-- TODO(cert-pass): "EICR / compliance certs — Tradify ❌" is wrong — Tradify has native certificates on Pro (£37/mo) / Plus (£44/mo), confirmed tradifyhq.com/uk/features/electrical-safety-certificates, 2026-09-17. Jobber's ❌ is still accurate (unchanged). Not touched this pass — pricing/renames only. -->
 <div class="table-wrap">  <table>
     <tr><th>Feature</th><th>Tradify</th><th>Jobber</th></tr>
     <tr><td>Pricing model</td><td>Per user/month (flat)</td><td>Per account — tiered by users</td></tr>
@@ -256,14 +255,25 @@ document.getElementById('hamburger').addEventListener('click',function(){
     <tr><td>Client self-service portal</td><td>❌</td><td>✅</td></tr>
     <tr><td>AI marketing tools</td><td>❌</td><td>✅ (Plus or add-on)</td></tr>
     <tr><td>Route optimisation</td><td>✅ Basic</td><td>✅ Stronger</td></tr>
-    <tr><td>EICR / compliance certs</td><td>❌</td><td>❌</td></tr>
+    <tr><td>EICR / compliance certs</td><td>⚠️ Pro/Plus tiers only (~35 electrical/fire/solar certs)</td><td>❌</td></tr>
     <tr><td>CIS native support</td><td>⚠️ Via Xero</td><td>⚠️ Limited</td></tr>
     <tr><td>Offline working</td><td>❌</td><td>✅ (added Jan 2026)</td></tr>
     <tr><td>Android app</td><td>✅ Full</td><td>✅ Full</td></tr>
     <tr><td>Free trial</td><td>14 days, no card</td><td>14 days, no card</td></tr>
   </table>
 </div>
-  <p style="font-size:0.8125rem;color:var(--muted)">Jobber prices in USD only — no native GBP pricing, even on its UK-facing site. Figures above are Jobber's own billing-commitment range (prepaid annual to no-commitment monthly), not a currency conversion.</p>
+  <p style="font-size:0.8125rem;color:var(--muted)">Jobber prices in USD only — no native GBP pricing, even on its UK-facing site. Figures above are Jobber's own billing-commitment range (prepaid annual to no-commitment monthly), not a currency conversion. Tradify added its electrical certificate library in 2026 — see its three-tier breakdown below; the £34/mo starting price shown above is for Lite, which doesn't include certificates.</p>
+
+  <h2>Tradify's Tiers, Since Certificates Are Tier-Gated</h2>
+  <p>Jobber doesn't split by feature tier the way Tradify does, so this table only concerns Tradify — worth showing because the comparison above collapses three distinct price points into one "starting price."</p>
+<div class="table-wrap">  <table>
+    <tr><th>Tradify plan</th><th>Price</th><th>What's included</th></tr>
+    <tr><td><strong>Lite</strong></td><td>£34/mo per user</td><td>Quoting, jobs, invoicing, scheduling, timesheets, Xero/Sage/QBO sync — no compliance certificates</td></tr>
+    <tr><td><strong>Pro</strong></td><td>£37/mo per user</td><td>Everything in Lite plus compliance certificates (EICR, EIC, Minor Works, PAT — ~35 electrical/fire/solar types), custom branding, job photos & files, subcontractor scheduling</td></tr>
+    <tr><td><strong>Plus</strong></td><td>£44/mo per user</td><td>Everything in Pro plus AI quoting assistant, supplier price list import, purchase order automation, customer-facing job service reports with embedded photos</td></tr>
+  </table>
+</div>
+  <p>Jobber has no certificate capability at any tier, so the comparison isn't affected by which Jobber plan you're on. It is affected by which Tradify plan you're on — a Tradify sole trader on Lite (£34/mo) is genuinely cheaper than Jobber's Core, but doesn't get certificates; matching Jobber on certificate capability means comparing against Tradify Pro (£37/mo) instead.</p>
 
   <h2>The Pricing Crossover Point</h2>
   <p>This is the most important practical difference and it's not obvious from the headline prices. Jobber bills in USD at three commitment levels (prepaid annual / 12-month / no commitment) — the figures below use the prepaid-annual rate, Jobber's cheapest.</p>
@@ -308,8 +318,8 @@ document.getElementById('hamburger').addEventListener('click',function(){
 
   <h2>The Catches</h2>
   <div class="catch">
-    <p><strong>Tradify:</strong> No client self-service portal. No offline mode. The "sent from Tradify" email footer on every outbound message. No photo reports attached to invoices.</p>
-    <p><strong>Jobber:</strong> Sharp pricing jump at two employees (Core to Connect). QuickBooks sync reliability issues. USD-first pricing means GBP equivalent fluctuates. Google Calendar sync is 24-hour lag, not real-time. No UK compliance certificates or native CIS support.</p>
+    <p><strong>Tradify:</strong> No client self-service portal. No offline mode. The "sent from Tradify" email footer on every outbound message. Certificates and customer-facing photo reports both exist now, but only from Pro (£37/mo) upward — Lite (£34/mo) has neither.</p>
+    <p><strong>Jobber:</strong> Sharp pricing jump at two employees (Core to Connect). QuickBooks sync reliability issues. USD-first pricing means GBP equivalent fluctuates. Google Calendar sync is 24-hour lag, not real-time. No UK compliance certificates at any tier, and no native CIS support.</p>
   </div>
 
   <h2>Who Should Choose Which</h2>
