@@ -10,6 +10,9 @@ module.exports = function (eleventyConfig) {
   // robots.txt is plain text — pass through rather than templating.
   eleventyConfig.addPassthroughCopy("src/robots.txt");
 
+  // ads.txt (AdSense authorised-seller declaration) must be served verbatim at the site root.
+  eleventyConfig.addPassthroughCopy("src/ads.txt");
+
   return {
     dir: {
       input: "src",
