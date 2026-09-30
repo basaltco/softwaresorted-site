@@ -103,7 +103,7 @@ footer a{color:var(--muted)}
   "@context": "https://schema.org",
   "@type": "Article",
   "datePublished": "2026-06-09",
-  "dateModified": "2026-06-09",
+  "dateModified": "2026-09-30",
   "url": "https://softwaresorted.co.uk/heating-engineers/job-management-software-cp12-gas-safe/",
   "headline": "Job Management Software for CP12 and Gas Safe Compliance: Which Tools Actually Handle It?",
   "description": "Which job management software produces CP12 landlord gas safety certificates, boiler service records, and annual reminders for UK heating engineers? An honest comparison.",
@@ -197,14 +197,14 @@ document.getElementById('hamburger').addEventListener('click',function(){
   <p>Before comparing the software, it is worth being precise about what "compliance" means here. There are four distinct requirements for most heating engineer businesses.</p>
 
   <h3>1. CP12 — Landlord Gas Safety Records</h3>
-  <p>Under the Gas Safety (Installation and Use) Regulations 1998, landlords must have a Gas Safety Record completed annually for every gas appliance in a rented property. The engineer must hold a current Gas Safe card for the appliance type being worked on. The record must contain specific prescribed information: engineer name, Gas Safe registration number, appliance details, location, inspection date, defects identified, and whether the appliance was left safe to use. The landlord must receive a copy within 28 days, and a new tenant must receive it within 28 days of moving in.</p>
+  <p>Under the Gas Safety (Installation and Use) Regulations 1998, landlords must have a Gas Safety Record completed annually for every gas appliance in a rented property. The engineer must hold a current Gas Safe card for the appliance type being worked on. The record must contain specific prescribed information: engineer name, Gas Safe registration number, appliance details, location, inspection date, defects identified, and whether the appliance was left safe to use. The landlord must give existing tenants a copy within 28 days of the check, and give new tenants a copy before they move in.</p>
   <p>A job note is not a CP12. A generic invoice is not a CP12. A completed PDF from an unstructured form builder may not be a CP12. The certificate must contain the required fields in a format that satisfies the Gas Safe Register's prescribed information requirements. This is where most general-purpose job management software falls short — and where heating engineers running landlord service contracts discover the gap at the worst possible moment.</p>
 
   <h3>2. Boiler Service Records</h3>
   <p>Not a legal requirement in the same way as a CP12, but boiler manufacturers require annual service records to maintain warranty validity. Landlords expect them. Commercial clients expect them. The record needs to capture appliance details, service date, readings taken, any parts replaced, and engineer sign-off. A tool that stores boiler service history against the appliance record — not just against a job — lets you produce a complete service history for any property on request. This matters when a landlord asks "when was the boiler last serviced and what was done" and you need an answer in 30 seconds, not 30 minutes of calendar searching.</p>
 
   <h3>3. Annual Service Recall</h3>
-  <p>The CP12 expires annually. The boiler service is due annually. For a heating engineer managing 50 or 100 landlord properties, tracking those renewal dates manually is an operational risk. Miss a renewal, and a landlord has an illegal let. Chase it too late, and you lose the service to a competitor who reminded them first. Automated annual reminder workflows — where the software tracks each certificate expiry date and sends the client a reminder before it lapses — are not a nice-to-have for this business model. They are what makes the model scalable.</p>
+  <p>The CP12 expires annually. The boiler service is due annually. For a heating engineer managing 50 or 100 landlord properties, tracking those renewal dates manually is an operational risk. Miss a renewal, and a landlord is in breach of the Gas Safety Regulations. Chase it too late, and you lose the service to a competitor who reminded them first. Automated annual reminder workflows — where the software tracks each certificate expiry date and sends the client a reminder before it lapses — are not a nice-to-have for this business model. They are what makes the model scalable.</p>
 
   <h3>4. Central Heating Commissioning Certificates</h3>
   <p>Required on any new central heating installation. The certificate records the system specification, commissioning date, readings and pressure checks, and engineer details. This applies to new-build work, full system replacements, and boiler swaps where the full system is recommissioned. Not all four tools support this as a specific form.</p>
@@ -236,8 +236,8 @@ document.getElementById('hamburger').addEventListener('click',function(){
       <tr>
         <td><strong>Annual service recall reminders</strong></td>
         <td>✅ Native — automated reminders sent before certificate expiry date</td>
-        <td>❌ Not available — manual tracking required</td>
-        <td>❌ Not available</td>
+        <td>⚠️ Plus plan only (£44/mo) — tied to service date, not certificate expiry</td>
+        <td>⚠️ Reminders to you only, via add-on</td>
         <td>⚠️ Via recurring jobs feature — partial equivalent, customer-facing portal shows upcoming services</td>
       </tr>
       <tr>
@@ -282,13 +282,13 @@ document.getElementById('hamburger').addEventListener('click',function(){
   </div>
 
   <h2>The Annual Service Recall Problem</h2>
-  <p>For a sole trader doing 30 boiler services a year, tracking CP12 renewal dates in a calendar is manageable. For an engineer running 80 to 150 landlord properties, it is not — and the failure mode is not just losing the service job. A landlord whose CP12 has lapsed is legally operating an unlicensed let. When that is your responsibility to track and remind, the liability sits partly on you.</p>
+  <p>For a sole trader doing 30 boiler services a year, tracking CP12 renewal dates in a calendar is manageable. For an engineer running 80 to 150 landlord properties, it is not — and the failure mode is not just losing the service job. A landlord whose gas safety check has lapsed is in breach of the Gas Safety (Installation and Use) Regulations 1998. When that is your responsibility to track and remind, the liability sits partly on you.</p>
   <p>Automated annual recall works like this in Powered Now: when a CP12 is issued, the system records the certificate date against the customer record. Ahead of the annual renewal date, it sends the landlord an automated reminder that their gas safety check is due. The landlord contacts you to rebook. The engineer visits, completes the inspection, issues the new CP12, and the cycle resets. No manual tracking. No missed renewals. No awkward "I forgot to remind you" conversations with a landlord whose tenants have been living with an expired certificate.</p>
   <p>Jobber's recurring jobs feature provides a partial equivalent. You can set a job to repeat annually against a customer, and the Jobber client portal makes upcoming services visible to the client. It requires more manual configuration than Powered Now's certificate-linked reminder system, but it is a workable alternative for larger teams already committed to Jobber.</p>
-  <p>Tradify and ServiceM8 have no equivalent. If you use either of these tools, annual service recall requires a separate system — calendar, spreadsheet, or a standalone reminder tool like Gas Engineer Software's notification feature.</p>
+  <p>Tradify's Service Reminders, on its Plus plan (£44/mo), email customers automatically before a service is due, but they're set against the service date rather than a certificate expiry. ServiceM8's Recurring Jobs + Reminders add-on can create yearly recurring jobs or put a reminder in your own inbox 12 months after a job, but it doesn't contact the customer for you.</p>
 
   <h2>Tradify's Gas Certificate Library</h2>
-  <p>Tradify deserves a specific note here because it has the most extensive gas certificate library of the four general-purpose tools. The UK forms available include:</p>
+  <p>Tradify deserves a specific note here because it has a large gas and oil certificate library — 15 forms on its Pro and Plus plans. The UK forms available include:</p>
   <ul>
     <li>Landlord Gas Safety Record (CP12 equivalent)</li>
     <li>Boiler Service Record Sheet</li>
@@ -300,7 +300,7 @@ document.getElementById('hamburger').addEventListener('click',function(){
     <li>CD11 — Oil Firing Servicing and Commissioning Report</li>
     <li>CP14 — Gas Warning Notice</li>
   </ul>
-  <p>For heating engineers doing new installations and system upgrades, this certificate library is genuinely useful — particularly the Commissioning Certificate and the Gas Breakdown form. The catch for compliance-heavy work is twofold: the Landlord Gas Safety Record is a template rather than a native compliance form with auto-populated prescribed fields, and there are no automated annual renewal reminders. Tradify is the stronger tool for install-heavy businesses; Powered Now is the stronger tool for service-contract-heavy businesses.</p>
+  <p>For heating engineers doing new installations and system upgrades, this certificate library is genuinely useful — particularly the Commissioning Certificate and the Gas Breakdown form. The catch for compliance-heavy work is twofold: the Landlord Gas Safety Record is a form template (Tradify says customer details pre-populate), and automated service reminders are only on the Plus plan (£44/mo). Tradify is the stronger tool for install-heavy businesses; Powered Now is the stronger tool for service-contract-heavy businesses.</p>
 
   <h2>ServiceM8 and the Gas Form Bundle</h2>
   <p>ServiceM8's CP12 capability requires installing a third-party gas form bundle from the ServiceM8 form store. This adds CP12, CP14, and related gas certificates as custom forms within the app. The setup takes around 30 minutes and the forms are reasonably well-structured for the gas trade.</p>
@@ -321,7 +321,7 @@ document.getElementById('hamburger').addEventListener('click',function(){
       <h3>If you're evaluating Tradify</h3>
       <ul>
         <li>Download the Landlord Gas Safety Record template and compare the fields against the Gas Safe Register's prescribed information requirements before using it for live certificates</li>
-        <li>Confirm there is no native annual reminder feature — plan your recall tracking system separately</li>
+        <li>Automated service reminders need the Plus plan (£44/mo) — test them against your recall workflow during the trial</li>
         <li>Check the commissioning certificate template against your manufacturer's requirements if this is regular work</li>
       </ul>
     </div>
@@ -344,8 +344,8 @@ document.getElementById('hamburger').addEventListener('click',function(){
   </div>
 
   <h2>The Specialist Alternative</h2>
-  <p>Gas Engineer Software (gasengineersoftware.co.uk) is used by over 6,000 UK heating businesses and is built specifically for the gas trade. Its compliance certificate coverage is more comprehensive than any of the four general-purpose tools above: native CP12, CP14, CD10, commercial gas certificates, boiler commissioning records, and engineer qualification management are all built-in as first-class features rather than templates or add-ons.</p>
-  <p>We do not review it here because there is no affiliate programme available. But if your compliance requirements go beyond what Powered Now or Tradify cover — particularly for multi-engineer businesses with complex certificate workflows, or businesses needing commercial gas safety certificates alongside domestic CP12s — Gas Engineer Software is the specialist option worth evaluating alongside any trial from this list.</p>
+  <p>Gas Engineer Software (gasengineersoftware.co.uk) which says it's trusted by 7,000+ businesses and is built specifically for the gas trade. Its compliance certificate coverage is more comprehensive than any of the four general-purpose tools above: native CP12, CP14, CD10, commercial gas certificates, boiler commissioning records, and engineer qualification management are all built-in as first-class features rather than templates or add-ons.</p>
+  <p>We haven't reviewed it yet. If your compliance requirements go beyond what Powered Now or Tradify cover — particularly for multi-engineer businesses with complex certificate workflows, or businesses needing commercial gas safety certificates alongside domestic CP12s — Gas Engineer Software is the specialist option worth evaluating alongside any trial from this list.</p>
 
   <h2>Frequently Asked Questions</h2>
   <div class="faq">
@@ -355,7 +355,7 @@ document.getElementById('hamburger').addEventListener('click',function(){
     </div>
     <div class="faq-item">
       <p class="faq-q">Is there a legal deadline for issuing a CP12 to a landlord?</p>
-      <p class="faq-a">Yes. The landlord must receive a copy of the Gas Safety Record within 28 days of the inspection. New tenants must receive a copy within 28 days of moving in, or before they move in if the inspection was carried out in advance of their tenancy. Existing tenants must receive a copy of each new Gas Safety Record within 28 days of the inspection. The landlord must also retain a copy for two years.</p>
+      <p class="faq-a">Yes. According to HSE, the landlord must give each existing tenant a copy of the Gas Safety Record within 28 days of the check, and give new tenants a copy before they move in. The landlord must keep the record for two years.</p>
     </div>
     <div class="faq-item">
       <p class="faq-q">Does the software send the CP12 directly to the landlord?</p>
