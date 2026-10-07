@@ -52,6 +52,7 @@ header{border-bottom:2px solid var(--black);background:var(--white);position:sti
 .why-text h4{font-size:0.9375rem;font-weight:600;color:var(--black);margin-bottom:0.2rem}
 .why-text p{font-size:0.875rem;color:var(--muted);margin:0;line-height:1.55}
 .reviews-section{max-width:var(--max);margin:0 auto;padding:4rem 1.5rem}
+.list-heading{font-family:var(--font-d);font-size:clamp(1.75rem,3vw,2.125rem);font-weight:700;letter-spacing:-0.03em;color:var(--black);margin:0 0 1.5rem;line-height:1.2}
 .review-list{display:flex;flex-direction:column;gap:0.625rem}
 .review-item{display:flex;align-items:center;justify-content:space-between;padding:1rem 1.25rem;border:1px solid var(--border);border-radius:var(--r);text-decoration:none;color:var(--ink);transition:border-color 0.15s}
 .review-item:hover{border-color:var(--accent)}
@@ -224,55 +225,49 @@ document.getElementById('hamburger').addEventListener('click',function(){
 
 <section class="hero">
   <p class="hero-eyebrow">Independent Software Reviews</p>
-  <h1>Software sorted.<br><em>For UK tradespeople.</em></h1>
-  <p class="hero-sub">Every review starts with real research — vendor pricing pages, help documentation and published user reviews. Honest verdicts, no sponsored content, and always UK-specific: VAT, CIS, Gas Safe, MTD.</p>
+  <h1>Software reviews that tell you the catches.</h1>
+  <p class="hero-sub">Job management tools for UK electricians, plumbers and heating engineers — plus scheduling and MTD software — checked against vendor pricing pages, help documentation and named user reviews. Every review says who the tool isn't for.</p>
   <div class="hero-badges">
     <span class="hero-badge">No sponsored content</span>
-    <span class="hero-badge">User quotes always sourced</span>
-    <span class="hero-badge">UK-specific — VAT, CIS, Gas Safe</span>
-    <span class="hero-badge">Free trial links where available</span>
+    <span class="hero-badge">Every user quote named and sourced</span>
+    <span class="hero-badge">Every review says who it's not for</span>
   </div>
 </section>
 
 <hr class="divider">
 
-<section class="niches">
+<section class="niches" id="trades">
   <p class="section-label">Browse by trade</p>
   <div class="niche-grid">
     <a href="/electricians/best-job-management-software" class="niche-card active">
-      <span class="niche-tag">Live now</span>
       <h3>Electricians</h3>
-      <p>Job management, quoting, scheduling, and compliance software reviewed for UK electrical contractors.</p>
-      <span class="niche-count">10 reviews &amp; guides</span>
-      <span class="niche-arrow">Browse reviews →</span>
+      <p>Tradify, Powered Now, ServiceM8 and Jobber, judged on electrical work: EICR and Minor Works certificates, CIS reverse charge on invoices, and the team size at which Jobber works out cheaper than Tradify.</p>
+      <span class="niche-count">Buyer's guide · 4 reviews · 4 head-to-heads · CIS &amp; VAT guide</span>
+      <span class="niche-arrow">Start with the electricians guide →</span>
     </a>
     <a href="/plumbers/best-job-management-software" class="niche-card active">
-      <span class="niche-tag">Live now</span>
       <h3>Plumbers</h3>
-      <p>Job management and Gas Safe compliance tools reviewed for UK plumbers, heating engineers, and gas contractors.</p>
-      <span class="niche-count">10 reviews &amp; guides</span>
-      <span class="niche-arrow">Browse reviews →</span>
+      <p>The same four tools, judged on what plumbers deal with: gas certificates, Legionella and Water Regs paperwork, and what still works when there's no signal.</p>
+      <span class="niche-count">Buyer's guide · 4 reviews · 4 head-to-heads · Gas Safe &amp; Water Regs guide</span>
+      <span class="niche-arrow">Start with the plumbers guide →</span>
     </a>
     <a href="/heating-engineers/best-job-management-software" class="niche-card active">
-      <span class="niche-tag">Live now</span>
       <h3>Heating Engineers</h3>
-      <p>Job management, CP12 compliance, and annual service tools reviewed for UK Gas Safe heating engineers.</p>
-      <span class="niche-count">10 reviews &amp; guides</span>
-      <span class="niche-arrow">Browse reviews →</span>
+      <p>Built around the CP12: which tools produce gas safety records, which remind the customer about their annual service, and which only remind you.</p>
+      <span class="niche-count">Buyer's guide · 4 reviews · 4 head-to-heads · CP12 &amp; Gas Safe guide</span>
+      <span class="niche-arrow">Start with the heating engineers guide →</span>
     </a>
     <a href="/scheduling/best-appointment-scheduling-software-uk" class="niche-card active">
-      <span class="niche-tag">Live now</span>
       <h3>Scheduling Software</h3>
-      <p>Appointment booking tools reviewed for UK freelancers, consultants, and small service businesses — Calendly, Acuity, YouCanBook.me, SimplyBook.me.</p>
-      <span class="niche-count">10 reviews &amp; guides</span>
-      <span class="niche-arrow">Browse reviews →</span>
+      <p>Calendly, Acuity, SimplyBook.me and YouCanBook.me for freelancers, therapists, coaches and salons — what each really costs once you switch on the features you need, and where your clients' data is held.</p>
+      <span class="niche-count">Buyer's guide · 4 reviews · 4 head-to-heads · GDPR guide</span>
+      <span class="niche-arrow">Start with the scheduling guide →</span>
     </a>
     <a href="/mtd/best-mtd-software-for-uk-landlords" class="niche-card active">
-      <span class="niche-tag">Live now</span>
       <h3>MTD for Landlords</h3>
-      <p>FreeAgent, Xero, QuickBooks, and Sage compared for Making Tax Digital for Income Tax as a UK landlord.</p>
+      <p>FreeAgent, Xero, QuickBooks and Sage compared on per-property tracking — and what happens if you also have self-employment income.</p>
       <span class="niche-count">1 guide</span>
-      <span class="niche-arrow">Read guide →</span>
+      <span class="niche-arrow">Read the guide →</span>
     </a>
   </div>
 </section>
@@ -280,8 +275,8 @@ document.getElementById('hamburger').addEventListener('click',function(){
 <section class="why">
   <div class="why-inner">
     <div>
-      <h2>Why use SoftwareSorted?</h2>
-      <p class="why-intro">We do our own research. Every review on this site is based on original analysis: published user reviews from Trustpilot, Capterra, G2 and Software Advice (quoted word for word, with the reviewer and platform named and every source recorded), pricing checked against vendors' own pricing pages, and a hard look at whether the monthly cost genuinely saves you enough time to justify it. You get straight answers, including the catches that vendors prefer not to advertise.</p>
+      <h2>How we review</h2>
+      <p class="why-intro">We do our own research. Pricing comes from vendors' own pricing pages, features from their help documentation, and where we quote users it's their exact words, with the reviewer and platform named. Most trade reviews also work out whether the monthly cost pays for itself. You get straight answers, including the catches you won't find on the vendor's website.</p>
     </div>
     <div class="why-points">
       <div class="why-point">
@@ -294,7 +289,7 @@ document.getElementById('hamburger').addEventListener('click',function(){
       <div class="why-point">
         <div class="why-icon">🧮</div>
         <div class="why-text">
-          <h4>The Tradesman's Math</h4>
+          <h4>The break-even maths</h4>
           <p>Most of our trade software reviews work out how much admin time the monthly cost needs to save to break even at a typical labour rate. If it won't add up for your business, we say so.</p>
         </div>
       </div>
@@ -317,12 +312,13 @@ document.getElementById('hamburger').addEventListener('click',function(){
 </section>
 
 <section class="reviews-section">
-  <p class="section-label">Latest reviews</p>
+  <h2 class="list-heading">All reviews and guides</h2>
+  <p class="section-label">Electricians</p>
   <div class="review-list">
     <a href="/electricians/best-job-management-software" class="review-item">
       <div class="review-left">
         <span class="review-title">Best Job Management Software for UK Electricians (2026)</span>
-        <span class="review-meta">Electricians · Full guide · Tradify, ServiceM8, Powered Now compared</span>
+        <span class="review-meta">Electricians · Full guide · Tradify, ServiceM8, Powered Now, Jobber compared</span>
       </div>
       <span class="review-arrow">→</span>
     </a>
@@ -640,8 +636,8 @@ document.getElementById('hamburger').addEventListener('click',function(){
 <section class="cta-strip">
   <div class="cta-inner">
     <h2>Independent reviews, updated as tools change</h2>
-    <p>Independent reviews for UK electricians, plumbers, heating engineers, and scheduling software — real pricing, honest catches, compliance coverage, and free trial links. No sponsored content.</p>
-    <a href="/scheduling/best-appointment-scheduling-software-uk" class="cta-btn">Scheduling guide →</a>
+    <p>Independent reviews for UK trades, small service businesses and landlords — real pricing, honest catches, no sponsored content.</p>
+    <a href="#trades" class="cta-btn">Choose your trade ↑</a>
   </div>
 </section>
 
@@ -658,7 +654,7 @@ document.getElementById('hamburger').addEventListener('click',function(){
       <a href="/scheduling/scheduling-software-gdpr-uk-data">GDPR Guide</a>
       <a href="/mtd/best-mtd-software-for-uk-landlords">MTD for Landlords</a>
     </div>
-    <p>© 2026 SoftwareSorted · Independent software reviews for UK tradespeople</p>
+    <p>© 2026 SoftwareSorted · Independent software reviews for UK trades and small businesses</p>
     <p style="margin-top:0.4rem">Some links on this site are affiliate links. We may earn a small commission if you sign up — at no extra cost to you. This never influences our reviews or verdicts.</p>
   </div>
 </footer>
