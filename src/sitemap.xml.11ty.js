@@ -33,7 +33,7 @@ module.exports = class {
 
   render() {
     const pages = walk(__dirname)
-      .filter((page) => page.url !== "/sitemap.xml/")
+      .filter((page) => page.url !== "/sitemap.xml/" && page.url !== "/404/")
       .sort((a, b) => a.url.localeCompare(b.url));
     const urlEntries = pages
       .map((page) => {

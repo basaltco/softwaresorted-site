@@ -13,6 +13,9 @@ module.exports = function (eleventyConfig) {
   // ads.txt (AdSense authorised-seller declaration) must be served verbatim at the site root.
   eleventyConfig.addPassthroughCopy("src/ads.txt");
 
+  // Social share image referenced by og:image on every page.
+  eleventyConfig.addPassthroughCopy("src/og-image.png");
+
   return {
     dir: {
       input: "src",
