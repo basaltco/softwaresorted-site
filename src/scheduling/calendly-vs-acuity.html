@@ -199,6 +199,23 @@ document.getElementById('hamburger').addEventListener('click',function(){
     <li><strong>Want to try before paying anything</strong> → Calendly. Acuity has only a 7-day trial.</li>
   </ul>
 
+  <h2>What It Costs in Practice</h2>
+  <p>The two price in different ways. Calendly charges per seat — per person who takes bookings — and bills new UK customers in pounds. Acuity charges per account, with a limit on how many calendars you can run, and bills only in US dollars. That difference decides which is cheaper once there's more than one of you.</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Your set-up</th><th>Calendly</th><th>Acuity</th></tr>
+      <tr><td>On your own, one type of call, no payment</td><td>£0 (Free: one event type, one calendar)</td><td>$16/mo billed annually (Starter) — no free plan</td></tr>
+      <tr><td>On your own, several session types, taking payment</td><td>£8/mo billed annually (Standard: unlimited event types, Stripe or PayPal)</td><td>$16/mo billed annually (Starter: packages, memberships, intake forms and payments included)</td></tr>
+      <tr><td>Four practitioners, each with their own diary</td><td>£32/mo billed annually (Standard, 4 seats); Teams at $16/seat/mo monthly adds round-robin</td><td>$27/mo billed annually (Standard: up to 6 calendars)</td></tr>
+      <tr><td>A busy clinic with ten practitioners</td><td>£80/mo billed annually (Standard, 10 seats)</td><td>$49/mo billed annually (Premium: up to 36 calendars)</td></tr>
+    </table>
+  </div>
+  <p>On your own, Calendly is cheaper at every stage: free for a single type of call, and £8 a month against Acuity Starter's $16 (about £12 at £1 ≈ $1.34, checked 6 October 2026) once you need more. But the plans aren't like for like — Acuity Starter already includes package and membership sales, which Calendly doesn't offer natively at any price, plus custom intake forms. And as soon as several people take bookings, the per-seat model turns against Calendly: four practitioners cost £32 a month on Calendly Standard, against $27 (about £20) for Acuity Standard covering up to six calendars. Remember Acuity bills in dollars, so its sterling cost moves with the exchange rate.</p>
+
+  <h2>Setting Up the Same Service in Each</h2>
+  <p>Take a personal trainer offering a free 15-minute consultation and paid one-hour sessions, sold individually or as a block of ten. In Calendly, the consultation and the session are two event types, so you need the Standard plan rather than Free. You connect Stripe or PayPal to charge for each session as it's booked. What Calendly can't do natively is sell the block of ten: you'd sell that some other way and then send those clients a booking link.</p>
+  <p>In Acuity, the consultation and the session are two appointment types with their own lengths and buffer times, and the block of ten is set up as a package that clients buy once and book against. You can add an intake form that the client fills in before their first session — health questions, goals, injuries — and those details sit with the booking. It takes longer to configure than Calendly, but it's all available on the Starter plan.</p>
+
   <h2>The Catches, Side by Side</h2>
   <div class="catch">
     <p><strong>Calendly's catch:</strong> Check UK time zone display — test your booking flow before relying on it for client-facing meetings. The free tier is limited to one event type.</p>

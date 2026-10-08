@@ -199,6 +199,23 @@ document.getElementById('hamburger').addEventListener('click',function(){
     <li><strong>Want a free plan to test before committing</strong> → SimplyBook.me; Acuity has a 7-day trial only.</li>
   </ul>
 
+  <h2>What It Costs in Practice</h2>
+  <p>Both charge per account rather than per person, but they cap different things. Acuity limits the number of calendars and lets you take unlimited appointments on every plan. SimplyBook.me limits bookings, staff ("providers") and custom features. Acuity bills in US dollars; SimplyBook.me in pounds.</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Your set-up</th><th>Acuity (billed annually / monthly)</th><th>SimplyBook.me (billed annually / monthly)</th></tr>
+      <tr><td>On your own, taking payment at booking</td><td>$16 / $20 (Starter: 1 calendar)</td><td>£10.90 / £12.90 (Basic: 100 bookings, 3 feature slots)</td></tr>
+      <tr><td>Up to five practitioners, under 100 bookings a month</td><td>$27 / $34 (Standard: up to 6 calendars)</td><td>£10.90 / £12.90 (Basic: 5 providers)</td></tr>
+      <tr><td>Up to fifteen staff, a few hundred bookings a month</td><td>$49 / $61 (Premium: up to 36 calendars)</td><td>£20.80 / £25 (Standard: 15 providers, 500 bookings)</td></tr>
+      <tr><td>A busy clinic, 1,500 bookings a month</td><td>$49 / $61 (Premium — appointments unlimited)</td><td>£45.80 / £55 (Premium: 30 providers, 2,000 bookings)</td></tr>
+    </table>
+  </div>
+  <p>At £1 ≈ $1.34, checked 6 October 2026, Acuity Starter's $16 is about £12, a little more than SimplyBook.me Basic's £10.90. For a small team, SimplyBook.me is usually cheaper — five providers on Basic against Acuity's six-calendar Standard plan — as long as you stay inside its booking limits. That's the thing to watch: SimplyBook.me's caps are on bookings, so a busy month can push you up a plan, while Acuity's plans don't limit appointments at all. If you sell packages and memberships, note that Acuity includes them on every plan; on SimplyBook.me, check which plan and feature slot covers what you need.</p>
+
+  <h2>Setting Up the Same Service in Each</h2>
+  <p>Take a physiotherapy clinic with three physios, offering an initial assessment and follow-up sessions, with a health questionnaire before the first visit. In Acuity, each physio gets a calendar, the assessment and follow-up are appointment types with their own lengths and buffers, and the questionnaire is an intake form attached to the assessment. Payment can be taken at booking through Stripe, Square or PayPal on any plan. With three physios you'd need Standard, since Starter has one calendar.</p>
+  <p>In SimplyBook.me, the physios are providers and the two appointments are services. Online payments, calendar sync and reminders each use a custom-feature slot, so check how many slots your set-up needs before choosing between Basic (three) and Standard (eight). Whichever you pick, the questionnaire will hold health information, so read the vendor's data processing terms first — see our <a href="/scheduling/scheduling-software-gdpr-uk-data">GDPR guide</a>.</p>
+
   <h2>The Catches, Side by Side</h2>
   <div class="catch">
     <p><strong>Acuity's catch:</strong> No free plan and a short 7-day trial, and configuring multiple appointment types and intake forms takes longer to set up than SimplyBook.me's payment-first model.</p>

@@ -198,6 +198,23 @@ document.getElementById('hamburger').addEventListener('click',function(){
     <li><strong>Where data is held matters to you</strong> → Neither guarantees UK storage on standard plans — check both; see the GDPR guide.</li>
   </ul>
 
+  <h2>What It Costs in Practice</h2>
+  <p>Both bill UK customers in pounds, but they charge for different things. Calendly charges per seat — per person taking bookings. SimplyBook.me charges per account, and each plan has limits on the number of bookings, staff ("providers") and custom features you can switch on.</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Your set-up</th><th>Calendly</th><th>SimplyBook.me</th></tr>
+      <tr><td>On your own, free bookings, one service</td><td>£0 (Free: one event type, one calendar)</td><td>£0 (Free: 50 bookings, 1 provider, 1 custom feature)</td></tr>
+      <tr><td>On your own, taking a deposit at booking</td><td>£8/mo billed annually (Standard, with Stripe or PayPal)</td><td>£10.90/mo billed annually, £12.90 monthly (Basic: payments, 100 bookings)</td></tr>
+      <tr><td>Payments plus calendar sync and reminders</td><td>£8/mo billed annually (Standard includes automations and reminders)</td><td>£10.90/mo if those three fill Basic's 3 feature slots; SMS messages bought separately as credits</td></tr>
+      <tr><td>Five staff taking bookings</td><td>£40/mo billed annually (Standard, 5 seats)</td><td>£10.90/mo (Basic covers 5 providers, but only 100 bookings); £20.80/mo for Standard (15 providers, 500 bookings)</td></tr>
+    </table>
+  </div>
+  <p>On your own, Calendly is cheaper once you take payment: £8 a month against £10.90 for SimplyBook.me Basic. With a team the picture flips, because SimplyBook.me doesn't charge per person. Five staff cost £40 a month on Calendly Standard; on SimplyBook.me it's £10.90 if you stay under 100 bookings a month, or £20.80 on Standard for up to 500. Watch the booking limits rather than the staff count — a busy salon passes 100 bookings a month quickly.</p>
+
+  <h2>Setting Up the Same Service in Each</h2>
+  <p>Take a tutor who charges £30 an hour and wants a £10 deposit when a lesson is booked. In Calendly, you create the lesson as an event type, move to the Standard plan, connect Stripe or PayPal and set the amount to charge. Calendly takes the payment when the student books. Invoicing for the balance happens outside Calendly.</p>
+  <p>In SimplyBook.me, you add the lesson as a service with its price and length, then switch on online payments as a custom feature — which uses one of your plan's feature slots — and set the deposit. Turning on Google Calendar sync and SMS reminders uses two more slots, which is exactly what the Basic plan allows. Payment and the record of it stay inside SimplyBook.me, which is the main reason to choose it if you take money at the point of booking.</p>
+
   <h2>The Catches, Side by Side</h2>
   <div class="catch">
     <p><strong>Calendly's catch:</strong> Test UK time zone display before relying on it. No native payment collection.</p>
