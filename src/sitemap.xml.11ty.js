@@ -16,6 +16,8 @@ function walk(dir, base = "") {
       const slug = entry.name === "index.html" ? "" : entry.name.replace(/\.html$/, "");
       const urlPath = slug ? `${base}/${slug}/` : `${base}/` || "/";
       const contents = fs.readFileSync(full, "utf8");
+      // Skip redirect stubs (meta refresh) left at old URLs after page merges.
+      if (contents.includes('http-equiv="refresh"')) continue;
       const match = contents.match(DATE_MODIFIED_RE);
       pages.push({ url: urlPath, lastmod: match ? match[1] : null });
     }

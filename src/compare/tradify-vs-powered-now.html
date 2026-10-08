@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tradify vs Powered Now (2026): Which Suits Your Trade?</title>
+<meta name="description" content="Tradify vs Powered Now for UK electricians, plumbers and heating engineers: certificates, CIS, Legionella, offline working and real per-user pricing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --black:#0f0f0f;--white:#fafaf8;--ink:#1c1c1c;--muted:#6b6b6b;
+  --border:#e2e0d8;--accent:#d97706;--accent-soft:#fef9ee;
+  --orange-soft:#fff8f0;--red-soft:#fef2f2;--green-soft:#f0fdf4;
+  --font-d:'Fraunces',Georgia,serif;--font-b:'DM Sans',system-ui,sans-serif;
+  --r:6px;--max:760px;
+}
+body{font-family:var(--font-b);background:var(--white);color:var(--ink);line-height:1.7;font-size:16px}
+a{color:var(--accent);text-underline-offset:3px;font-weight:500}
+
+/* ── HEADER & NAV ── */
+header{border-bottom:2px solid var(--black);background:var(--white);position:sticky;top:0;z-index:200}
+.hdr{max-width:var(--max);margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:58px;padding:0 1.5rem}
+.logo{font-family:var(--font-d);font-size:1.2rem;font-weight:700;color:var(--black);text-decoration:none;flex-shrink:0}
+.logo span{color:var(--accent)}
+
+/* Desktop nav */
+.nav{display:flex;gap:0;list-style:none;margin:0}
+.nav>li{position:relative}
+.nav>li>a{display:block;font-size:0.8125rem;font-weight:500;color:var(--muted);text-decoration:none;padding:0.5rem 0.875rem;transition:color 0.15s}
+.nav>li>a:hover{color:var(--black)}
+.nav>li>a.has-dropdown::after{content:'▾';font-size:0.6rem;margin-left:0.3rem;vertical-align:middle}
+
+/* Dropdown */
+.dropdown{display:none;position:absolute;top:100%;left:0;background:var(--white);border:1px solid var(--border);border-top:2px solid var(--accent);border-radius:0 0 var(--r) var(--r);min-width:220px;z-index:300;box-shadow:0 4px 12px rgba(0,0,0,0.08)}
+.nav>li:hover .dropdown{display:block}
+.dropdown a{display:block;padding:0.625rem 1rem;font-size:0.8125rem;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--border);font-weight:400;transition:background 0.1s}
+.dropdown a:last-child{border-bottom:none}
+.dropdown a:hover{background:var(--accent-soft);color:var(--black)}
+.dropdown-label{font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);padding:0.5rem 1rem 0.25rem;display:block}
+
+/* Mobile hamburger */
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:0.5rem;background:none;border:none;margin-left:auto}
+.hamburger span{display:block;width:22px;height:2px;background:var(--black);transition:all 0.25s}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* Mobile menu */
+.mobile-menu{display:none;background:var(--white);border-top:1px solid var(--border);padding:1rem 1.5rem 1.5rem}
+.mobile-menu.open{display:block}
+.mobile-section{margin-bottom:1.25rem}
+.mobile-section-label{font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin-bottom:0.5rem;display:block}
+.mobile-menu a{display:block;font-size:0.9375rem;color:var(--ink);text-decoration:none;padding:0.5rem 0;border-bottom:1px solid var(--border);font-weight:400}
+.mobile-menu a:last-child{border-bottom:none}
+.mobile-menu a:hover{color:var(--accent)}
+
+/* ── MAIN CONTENT ── */
+main{max-width:var(--max);margin:0 auto;padding:2.5rem 1.5rem 5rem}
+.badge{background:var(--accent-soft);border:1px solid #fcd34d;border-radius:var(--r);padding:0.375rem 0.875rem;font-size:0.8rem;color:#92400e;font-weight:500;display:inline-flex;align-items:center;gap:0.4rem;margin-bottom:1.75rem}
+h1{font-family:var(--font-d);font-size:clamp(1.75rem,4vw,2.25rem);font-weight:700;line-height:1.15;letter-spacing:-0.03em;color:var(--black);margin-bottom:1rem}
+h2{font-family:var(--font-d);font-size:1.25rem;font-weight:600;letter-spacing:-0.02em;color:var(--black);margin:2.25rem 0 0.625rem;padding-bottom:0.5rem;border-bottom:1px solid var(--border)}
+h3{font-size:1rem;font-weight:600;color:var(--black);margin:1.5rem 0 0.4rem}
+p{margin-bottom:1rem}
+strong{font-weight:600;color:var(--black)}
+ul,ol{margin:0 0 1rem 1.25rem}
+li{margin-bottom:0.4rem}
+hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+
+/* Tables — with mobile overflow */
+.table-wrap{width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.25rem 0;border-radius:var(--r);border:1px solid var(--border)}
+.table-wrap table{margin:0;border:none;border-radius:0;min-width:480px}
+table{width:100%;border-collapse:collapse;font-size:0.875rem;margin:1.25rem 0;border:1px solid var(--border);border-radius:var(--r);overflow:hidden}
+th{background:var(--black);color:var(--white);font-size:0.75rem;text-transform:uppercase;letter-spacing:0.05em;padding:0.6rem 0.875rem;text-align:left;font-weight:600}
+td{padding:0.6rem 0.875rem;border-bottom:1px solid var(--border);vertical-align:top}
+tr:last-child td{border-bottom:none}
+tr:nth-child(even) td{background:#f7f6f2}
+
+/* Callout boxes */
+.verdict{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 var(--r) var(--r) 0;padding:1rem 1.25rem;margin:1.25rem 0}
+.catch{background:var(--orange-soft);border-left:3px solid #f97316;border-radius:0 var(--r) var(--r) 0;padding:1rem 1.25rem;margin:1.25rem 0}
+.not-for{background:var(--red-soft);border-left:3px solid #ef4444;border-radius:0 var(--r) var(--r) 0;padding:1rem 1.25rem;margin:1.25rem 0}
+.highlight{background:var(--green-soft);border-left:3px solid #16a34a;border-radius:0 var(--r) var(--r) 0;padding:1rem 1.25rem;margin:1.25rem 0}
+.catch p:last-child,.verdict p:last-child,.not-for p:last-child,.highlight p:last-child{margin-bottom:0}
+
+/* Cards & grids */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.25rem 0}
+.card{border:1px solid var(--border);border-radius:var(--r);padding:1.25rem}
+.card h3{margin-top:0}
+.tag{display:inline-block;font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;padding:0.2rem 0.5rem;border-radius:3px;margin-bottom:0.5rem}
+.tag-best{background:var(--green-soft);color:#166534}
+.tag-ok{background:var(--accent-soft);color:#92400e}
+.tag-weak{background:var(--red-soft);color:#991b1b}
+.decision{background:#f7f6f2;border:1px solid var(--border);border-radius:var(--r);padding:1.25rem;font-family:'Courier New',monospace;font-size:0.8125rem;line-height:1.9;margin:1.25rem 0;white-space:pre-wrap}
+
+/* Quick facts box */
+.quick-facts{background:#f7f6f2;border:1px solid var(--border);border-radius:var(--r);padding:1.25rem;margin:1.25rem 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:0.75rem}
+.qf-item{display:flex;flex-direction:column;gap:0.2rem}
+.qf-label{font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:var(--muted)}
+.qf-value{font-size:0.9375rem;font-weight:600;color:var(--black)}
+
+/* FAQ */
+.faq{margin:1.25rem 0}
+.faq-item{border-bottom:1px solid var(--border);padding:1rem 0}
+.faq-item:last-child{border-bottom:none}
+.faq-q{font-weight:600;color:var(--black);margin-bottom:0.5rem;font-size:0.9375rem}
+.faq-a{color:var(--ink);font-size:0.9375rem;margin:0}
+
+/* CTA */
+.cta-box{background:var(--black);border-radius:var(--r);padding:1.5rem;margin:2rem 0;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.cta-box p{color:#d4d4d4;margin:0;font-size:0.9rem}
+.cta-btn{background:var(--accent);color:var(--white)!important;padding:0.625rem 1.25rem;border-radius:var(--r);text-decoration:none!important;font-weight:600;font-size:0.9rem;white-space:nowrap;display:inline-block}
+
+/* Related links */
+.related{border-top:1px solid var(--border);margin-top:3rem;padding-top:1.5rem}
+.related-label{font-size:0.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.1em;font-weight:600;margin-bottom:0.75rem}
+.related-links{display:flex;flex-direction:column;gap:0.5rem}
+.related-links a{font-size:0.9375rem;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:0.5rem}
+.related-links a::before{content:'→';color:var(--accent);font-weight:700}
+
+/* Footer */
+footer{border-top:1px solid var(--border);padding:1.75rem 1.5rem;text-align:center;font-size:0.8rem;color:var(--muted)}
+footer a{color:var(--muted)}
+
+/* ── MOBILE ── */
+@media(max-width:680px){
+  .nav{display:none}
+  .hamburger{display:flex}
+  main{padding:2rem 1rem 4rem}
+  h1{font-size:1.625rem;line-height:1.2}
+  h2{font-size:1.125rem}
+  .two-col{grid-template-columns:1fr}
+  .cta-box{flex-direction:column;align-items:flex-start}
+  .quick-facts{grid-template-columns:1fr 1fr}
+  table{font-size:0.8125rem}
+  th,td{padding:0.5rem 0.625rem}
+}
+</style>
+<link rel="canonical" href="https://softwaresorted.co.uk/compare/tradify-vs-powered-now/">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="SoftwareSorted">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="Tradify vs Powered Now (2026): Which Suits Your Trade?">
+<meta property="og:description" content="Tradify vs Powered Now for UK electricians, plumbers and heating engineers: certificates, CIS, Legionella, offline working and real per-user pricing.">
+<meta property="og:url" content="https://softwaresorted.co.uk/compare/tradify-vs-powered-now/">
+<meta property="og:image" content="https://softwaresorted.co.uk/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "dateModified": "2026-10-08",
+  "url": "https://softwaresorted.co.uk/compare/tradify-vs-powered-now/",
+  "headline": "Tradify vs Powered Now (2026): Which Suits Your Trade?",
+  "description": "Tradify vs Powered Now for UK electricians, plumbers and heating engineers: certificates, CIS, Legionella, offline working and real per-user pricing.",
+  "author": {
+    "@type": "Organization",
+    "name": "SoftwareSorted"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SoftwareSorted",
+    "url": "https://softwaresorted.co.uk"
+  },
+  "datePublished": "2026-10-08"
+}
+</script>
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5465380120947774"
+     crossorigin="anonymous"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Tradify or Powered Now cheaper?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Powered Now, in both like-for-like comparisons. Without certificates, Powered Now Business is £28/mo against Tradify Lite at £34/mo. With certificates, Powered Now Professional is £32/mo against Tradify Pro at £37/mo — £64 against £74 for two people, and £160 against £185 for five."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which is better for Gas Safe engineers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Powered Now, if CP12s and annual services are a regular part of your work: Gas Safety Records come with its £32/mo Professional plan and its reminders are linked to the certificate date. Tradify's gas and oil forms need Pro (£37/mo) or Plus (£44/mo), and its automatic service reminders need Plus. For install-led businesses where CP12s are occasional, Tradify's quoting can make it the better daily tool."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which is better for electricians doing EICRs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Powered Now if you produce EICRs, EICs or Minor Works certificates regularly, since they come with its £32/mo Professional plan and sit inside the job workflow. Tradify's electrical certificates need Pro or Plus. If certificates are rare and quoting is your main admin, Tradify may suit you better."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does either handle CIS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Powered Now documents built-in CIS deductions and the domestic reverse charge, applied per invoice line; check a test invoice shows the wording your contractor expects. Tradify has no native CIS or reverse charge option and needs Xero or Sage (QuickBooks isn't supported)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I trial both at the same time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Both have 14-day free trials with no card needed. Running both on the same real jobs for a week or two is the quickest way to see which workflow suits you, then commit to one — running two systems permanently just duplicates your admin."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://softwaresorted.co.uk/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Tradify vs Powered Now",
+      "item": "https://softwaresorted.co.uk/compare/tradify-vs-powered-now/"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header>
+  <div class="hdr">
+    <a href="/" class="logo">Software<span>Sorted</span></a>
+    <ul class="nav">
+      <li>
+        <a href="/electricians/best-job-management-software/">Electricians</a>
+      </li>
+      <li>
+        <a href="#" class="has-dropdown">Reviews</a>
+        <div class="dropdown">
+          <span class="dropdown-label">Individual Reviews</span>
+          <a href="/electricians/tradify-review/">Tradify Review</a>
+          <a href="/electricians/powered-now-review/">Powered Now Review</a>
+          <a href="/electricians/servicem8-review/">ServiceM8 Review</a>
+          <a href="/electricians/jobber-review/">Jobber Review</a>
+        </div>
+      </li>
+      <li>
+        <a href="#" class="has-dropdown">Compare</a>
+        <div class="dropdown">
+          <span class="dropdown-label">Head-to-Head</span>
+          <a href="/electricians/tradify-vs-servicem8/">Tradify vs ServiceM8</a>
+          <a href="/compare/tradify-vs-powered-now/">Tradify vs Powered Now</a>
+          <a href="/electricians/tradify-vs-jobber/">Tradify vs Jobber</a>
+          <a href="/electricians/servicem8-vs-powered-now/">ServiceM8 vs Powered Now</a>
+        </div>
+      </li>
+      <li>
+        <a href="/electricians/job-management-software-cis-vat/">CIS &amp; VAT</a>
+      </li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="mobile-menu" id="mobile-menu">
+    <div class="mobile-section">
+      <span class="mobile-section-label">Overview</span>
+      <a href="/electricians/best-job-management-software/">Best Job Management Software</a>
+      <a href="/electricians/job-management-software-cis-vat/">CIS &amp; VAT Guide</a>
+    </div>
+    <div class="mobile-section">
+      <span class="mobile-section-label">Reviews</span>
+      <a href="/electricians/tradify-review/">Tradify Review</a>
+      <a href="/electricians/powered-now-review/">Powered Now Review</a>
+      <a href="/electricians/servicem8-review/">ServiceM8 Review</a>
+      <a href="/electricians/jobber-review/">Jobber Review</a>
+    </div>
+    <div class="mobile-section">
+      <span class="mobile-section-label">Compare</span>
+      <a href="/electricians/tradify-vs-servicem8/">Tradify vs ServiceM8</a>
+      <a href="/compare/tradify-vs-powered-now/">Tradify vs Powered Now</a>
+      <a href="/electricians/tradify-vs-jobber/">Tradify vs Jobber</a>
+      <a href="/electricians/servicem8-vs-powered-now/">ServiceM8 vs Powered Now</a>
+    </div>
+  </nav>
+</header>
+<script>
+document.getElementById('hamburger').addEventListener('click',function(){
+  this.classList.toggle('open');
+  document.getElementById('mobile-menu').classList.toggle('open');
+});
+</script>
+
+<main>
+  <nav aria-label="Breadcrumb" style="font-size:0.8125rem;color:var(--muted);margin-bottom:1rem"><a href="/" style="color:inherit">Home</a> › <span aria-current="page">Tradify vs Powered Now</span></nav>
+  <div class="badge">✓ Independent comparison — no sponsored content</div>
+  <h1>Tradify vs Powered Now (2026): Which Suits Your Trade?</h1>
+
+  <p>If you're weighing up Tradify against Powered Now, you're comparing two tools that cost about the same, both work properly on Android and iPhone, and both now produce compliance certificates. What separates them is what each was built around: Tradify around getting from quote to invoice quickly, Powered Now around the paperwork UK trades have to produce. This comparison covers both in general, then what changes if you're an <a href="#electricians">electrician</a>, a <a href="#plumbers">plumber</a> or a <a href="#heating">heating engineer</a>.</p>
+
+  <h2>Quick Verdict</h2>
+  <div class="verdict">
+    <p>Start with what eats your week, not the feature list. <strong>If it's certificates and compliance paperwork</strong> — EICRs, Gas Safety Records, Legionella assessments, CIS deductions, or jobs with no signal — <strong>Powered Now</strong> is the stronger fit. Its certificates start on the £32/mo Professional plan, it has Legionella templates and full offline working, and CIS is built in. <strong>If it's quoting and invoicing</strong>, <strong>Tradify</strong> is quicker day to day, with a clean Xero sync. Its certificates only come with the Pro (£37/mo) and Plus (£44/mo) plans, and it has no Legionella templates, no offline mode and no native CIS.</p>
+    <p>On a like-for-like basis — both on a plan that includes certificates — Powered Now is cheaper at every team size.</p>
+  </div>
+
+  <h2>Feature Comparison</h2>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Feature</th><th>Tradify</th><th>Powered Now</th></tr>
+      <tr><td>Electrical certificates (EICR, EIC, Minor Works)</td><td>⚠️ Pro/Plus only (£37/mo+) — electrical, fire and solar certificates</td><td>✅ From Professional (£32/mo), in a library spanning gas, electrical, fire and pest control</td></tr>
+      <tr><td>Gas Safety Records (CP12)</td><td>⚠️ Pro/Plus only — 15 gas and oil forms</td><td>✅ From Professional (£32/mo)</td></tr>
+      <tr><td>Legionella risk assessment</td><td>❌ Not on any plan</td><td>✅ Templates included</td></tr>
+      <tr><td>Annual service reminders</td><td>⚠️ Plus only (£44/mo)</td><td>✅ Linked to the certificate date</td></tr>
+      <tr><td>CIS deductions</td><td>⚠️ Via Xero or Sage (not QuickBooks)</td><td>✅ Built in</td></tr>
+      <tr><td>Making Tax Digital</td><td>⚠️ Not documented — check with Tradify, or file via Xero or Sage</td><td>✅ Built in</td></tr>
+      <tr><td>Offline working</td><td>❌ Needs signal</td><td>✅ Full offline mode</td></tr>
+      <tr><td>Quoting</td><td>✅ Fewer steps; AI materials assistant on Plus</td><td>⚠️ More steps</td></tr>
+      <tr><td>Xero integration</td><td>✅ Automatic sync</td><td>✅ Integrates</td></tr>
+      <tr><td>Android app</td><td>✅ Same as iPhone</td><td>✅ Same as iPhone</td></tr>
+      <tr><td>Starting price</td><td>£34/mo per user (Lite, no certificates); £37/mo (Pro)</td><td>£28/mo (Business, no certificates); £32/mo (Professional)</td></tr>
+      <tr><td>Free trial</td><td>14 days, no card</td><td>14 days, no card</td></tr>
+    </table>
+  </div>
+
+  <h2>Pricing at Real Team Sizes</h2>
+  <p>Both charge per user per month. Neither includes certificates on its cheapest plan, so the fair comparison for anyone who needs them is Tradify Pro against Powered Now Professional.</p>
+  <div class="table-wrap">
+    <table>
+      <tr><th>Team</th><th>Tradify Pro (certificates)</th><th>Powered Now Professional (certificates)</th></tr>
+      <tr><td>On your own</td><td>£37/mo</td><td>£32/mo</td></tr>
+      <tr><td>2 people</td><td>£74/mo</td><td>£64/mo</td></tr>
+      <tr><td>3 people</td><td>£111/mo</td><td>£96/mo</td></tr>
+      <tr><td>5 people</td><td>£185/mo</td><td>£160/mo</td></tr>
+      <tr><td>5 people, with Tradify's AI quoting (Plus)</td><td>£220/mo</td><td>£160/mo</td></tr>
+    </table>
+  </div>
+  <p>If you don't need certificates at all, the entry plans are Tradify Lite at £34/mo and Powered Now Business at £28/mo — Powered Now is still cheaper. Powered Now has no cheaper licence for engineers who only work in the field, so budget the same rate for everyone.</p>
+
+  <h2>Where Tradify Wins</h2>
+  <p><strong>Quoting.</strong> Tradify gets a quote out in fewer steps, especially from a saved price list or materials catalogue, and turns it into a job when the customer accepts. On the Plus plan (£44/mo), its AI assistant fills in materials from imported supplier price lists — useful when cable, copper or boiler prices keep moving.</p>
+  <p><strong>Xero sync.</strong> Invoices, bills, purchase orders, customers and contacts all sync to Xero automatically. Powered Now integrates with Xero too; if your accountant lives in Xero, run test invoices through both during the trials and ask which they'd rather receive.</p>
+  <p><strong>Quicker to set up.</strong> Tradify takes less setting up. Powered Now does more, so expect to spend longer getting its templates and settings right.</p>
+
+  <h2>Where Powered Now Wins</h2>
+  <p><strong>Certificates for less.</strong> Certificates are part of the job workflow from the £32/mo Professional plan: finish the work, fill in the certificate in the app, get a signature, send it, raise the invoice. Tradify needs Pro at £37/mo for its certificates, and a sole trader on its £34/mo Lite plan gets none.</p>
+  <p><strong>CIS and MTD built in.</strong> CIS deductions and Making Tax Digital are handled inside Powered Now rather than through your accounting software. It supports the domestic reverse charge — you pick a Reverse Charge tax rate on each invoice line — though its help centre doesn't say the HMRC wording is added automatically, so check a test invoice shows what your main contractor expects. Tradify has no native option and needs Xero or Sage set up for CIS and the reverse charge (QuickBooks isn't supported).</p>
+  <p><strong>Working without signal.</strong> Powered Now works fully offline and syncs when you're back in range, so a job finished in a basement, plant room or rural property can be signed off and invoiced on the spot. Tradify needs a connection.</p>
+  <p><strong>Built for UK paperwork.</strong> Powered Now was designed in the UK for British trades, so certificates, CIS and MTD were there from the start. Tradify comes from New Zealand and has been catching up — its certificates only arrived in 2026.</p>
+
+  <h2 id="electricians">If You're an Electrician</h2>
+  <p>The question is how often you produce certificates. Powered Now includes EICRs, Electrical Installation Certificates and Minor Works Certificates from its Professional plan, and the certificate is simply the last step of the job you're already doing in the app. Tradify added electrical certificates — including EICR, EIC, Minor Works and PAT — in 2026, but only on Pro and Plus, and its library is narrower: electrical, fire and solar, where Powered Now's also covers gas and pest control.</p>
+  <p>If certificates are occasional and most of your admin is quoting rewires, consumer unit changes and new installs, Tradify's quicker quoting and AI materials pricing on Plus may matter more. If you sub for main contractors, Powered Now's built-in CIS saves setting it up in Xero or Sage. And if you work in commercial basements or plant rooms with poor coverage, Tradify can't do anything until you're back in signal.</p>
+
+  <h2 id="plumbers">If You're a Plumber</h2>
+  <p>Ask two questions first: are you Gas Safe registered, and do landlords or property managers ask you to assess Legionella risk? If either answer is yes, Powered Now is the stronger fit. It covers Gas Safety Records and CP12 landlord certificates from the Professional plan, and it's the only tool in this category with Legionella risk assessment templates, so those assessments sit in the same system as your jobs. Tradify covers gas certificates on Pro and Plus but has nothing for Legionella.</p>
+  <p>If your work is domestic with no gas or commercial water systems — bathrooms, re-pipes, leak repairs — Tradify's quoting is the better day-to-day tool, and the Plus plan's supplier price-list import helps when fittings prices won't sit still. Powered Now's offline mode is the other big plumbing difference: a job finished in a cellar can be completed and invoiced on the spot.</p>
+
+  <h2 id="heating">If You're a Heating Engineer</h2>
+  <p>This maps onto two kinds of heating business. If annual services and landlord gas safety checks are the core of your work, Powered Now fits better: CP12 certificates come with the £32/mo Professional plan, and its service reminders are linked to the certificate date. Tradify's gas and oil forms (15 in all) need Pro or Plus, and its automatic service reminders need Plus at £44/mo. Check during the Powered Now trial whether customer details fill into the CP12 automatically, as its documentation doesn't say.</p>
+  <p>If your business is install-led — boiler replacements and heating upgrades, with CP12s now and then — Tradify's quoting speed may matter more day to day. It also has a dedicated Central Heating Commissioning Certificate template, where Powered Now relies on its custom form builder. If you do both in roughly equal measure, start with Powered Now's trial if compliance is your bottleneck and Tradify's if quoting is. Both trials can run side by side on real jobs.</p>
+
+  <h2>The Catches</h2>
+  <div class="catch">
+    <p><strong>Tradify:</strong> No certificates on the £34/mo Lite plan — you need Pro (£37/mo) or Plus (£44/mo). No Legionella templates on any plan. CIS needs Xero or Sage. Nothing works without signal. Automatic service reminders and customer-facing photo reports only on Plus. Every email it sends carries a "sent from Tradify" footer.</p>
+    <p><strong>Powered Now:</strong> Everyone pays the same per-user rate — no cheaper licence for field-only engineers. Quotes take more steps than in Tradify, and the wider feature set means a longer setup. Test the Xero sync with your accountant during the trial.</p>
+  </div>
+
+  <h2>Who Should Choose Which</h2>
+  <div class="two-col">
+    <div class="card">
+      <h3>Choose Tradify if</h3>
+      <ul>
+        <li>Quoting is where you lose most time, and certificates are occasional</li>
+        <li>Your accountant works in Xero and wants invoices to arrive without retyping</li>
+        <li>You'd use the AI assistant to price materials from supplier lists (Plus plan)</li>
+        <li>You need a Central Heating Commissioning Certificate template</li>
+        <li>You want something quick to set up</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Choose Powered Now if</h3>
+      <ul>
+        <li>You regularly produce EICRs, Gas Safety Records or other certificates</li>
+        <li>You carry out Legionella risk assessments</li>
+        <li>You sub for main contractors under CIS</li>
+        <li>You often work in basements, plant rooms or rural properties with no signal</li>
+        <li>You want certificates at the lowest price — £32/mo against £37/mo for Tradify Pro</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="two-col" style="margin-top:2rem">
+    <div class="cta-box">
+      <p>Tradify — 14-day free trial, no card</p>
+      <a href="https://go.tradifyhq.com/signup?promocode=SOFTWA50" class="cta-btn">Try Tradify →</a>
+    </div>
+    <div class="cta-box">
+      <p>Powered Now — 14-day free trial, no card</p>
+      <a href="https://www.powerednow.io/refer?code=0D48D4CB" class="cta-btn">Try Powered Now →</a>
+    </div>
+  </div>
+
+  <h2>What Real Users Say</h2>
+  <div class="two-col">
+    <div class="card">
+      <h3>Tradify users report</h3>
+      <p>"Tradify enables us to keep everything together from Quoting to invoice, back costing and a record of each job completed" — Dave W. (Owner, Construction), Capterra, Nov 2022</p>
+      <p>"So far so good, haven't used a lot of it yet but the bits I do use are very easy to work with and simplify my admin. The quoting/invoicing system works really well." — Ben (GB), Trustpilot, Sep 2026</p>
+      <p>"Inventory management also isn't very strong, which could be an issue for businesses that track a lot of parts or materials." — Daniel (Environmental Services), Capterra, Jul 2025</p>
+    </div>
+    <div class="card">
+      <h3>Powered Now users report</h3>
+      <p>"Best system to have to lessen the burden of paperwork. Love this platform. Been using it since 2020." — CW Services Plumbing &amp; Heating Ltd (GB), Trustpilot, Jul 2026</p>
+      <p>"When I got to know how to use it properly it was a total game changer for me &amp; my business. It also works when you have no signal on your phone" — Stephen Trotter (GB), Trustpilot, May 2026</p>
+      <p>"Can't believe how the cost has risen!!!! Absolutely insane" — Gary Morgan (GB), Trustpilot, Jul 2026</p>
+    </div>
+  </div>
+
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq">
+    <div class="faq-item">
+      <p class="faq-q">Is Tradify or Powered Now cheaper?</p>
+      <p class="faq-a">Powered Now, in both like-for-like comparisons. Without certificates, Powered Now Business is £28/mo against Tradify Lite at £34/mo. With certificates, Powered Now Professional is £32/mo against Tradify Pro at £37/mo — £64 against £74 for two people, and £160 against £185 for five.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">Which is better for Gas Safe engineers?</p>
+      <p class="faq-a">Powered Now, if CP12s and annual services are a regular part of your work: Gas Safety Records come with its £32/mo Professional plan and its reminders are linked to the certificate date. Tradify's gas and oil forms need Pro (£37/mo) or Plus (£44/mo), and its automatic service reminders need Plus. For install-led businesses where CP12s are occasional, Tradify's quoting can make it the better daily tool.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">Which is better for electricians doing EICRs?</p>
+      <p class="faq-a">Powered Now if you produce EICRs, EICs or Minor Works certificates regularly, since they come with its £32/mo Professional plan and sit inside the job workflow. Tradify's electrical certificates need Pro or Plus. If certificates are rare and quoting is your main admin, Tradify may suit you better.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">Does either handle CIS?</p>
+      <p class="faq-a">Powered Now documents built-in CIS deductions and the domestic reverse charge, applied per invoice line; check a test invoice shows the wording your contractor expects. Tradify has no native CIS or reverse charge option and needs Xero or Sage (QuickBooks isn't supported).</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">Can I trial both at the same time?</p>
+      <p class="faq-a">Yes. Both have 14-day free trials with no card needed. Running both on the same real jobs for a week or two is the quickest way to see which workflow suits you, then commit to one — running two systems permanently just duplicates your admin.</p>
+    </div>
+  </div>
+
+  <div class="related">
+    <p class="related-label">Read next</p>
+    <div class="related-links">
+      <a href="/electricians/powered-now-review/">Powered Now review for electricians</a>
+      <a href="/plumbers/powered-now-review/">Powered Now review for plumbers</a>
+      <a href="/heating-engineers/powered-now-review/">Powered Now review for heating engineers</a>
+      <a href="/electricians/tradify-review/">Tradify review for electricians</a>
+      <a href="/plumbers/tradify-review/">Tradify review for plumbers</a>
+      <a href="/heating-engineers/tradify-review/">Tradify review for heating engineers</a>
+      <a href="/electricians/job-management-software-cis-vat/">Which apps handle CIS and VAT?</a>
+      <a href="/heating-engineers/job-management-software-cp12-gas-safe/">Which apps handle CP12 and Gas Safe?</a>
+    </div>
+  </div>
+</main>
+<footer>
+  <p>© 2026 SoftwareSorted · Independent software reviews for UK tradespeople · <a href="/">Home</a></p>
+  <p style="margin-top:0.4rem"><a href="/about/">About</a> · <a href="/how-we-review/">How we review</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="#" onclick="window.googlefc=window.googlefc||{};googlefc.callbackQueue=googlefc.callbackQueue||[];googlefc.callbackQueue.push(function(){googlefc.showRevocationMessage();});return false;">Privacy and cookie settings</a></p>
+  <p style="margin-top:0.4rem">Some links are affiliate links. We may earn a small commission if you sign up — at no extra cost to you. This never influences our reviews.</p>
+</footer>
+</body>
+</html>
