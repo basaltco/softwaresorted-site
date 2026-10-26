@@ -126,7 +126,7 @@ footer a{color:var(--muted)}
   "@context": "https://schema.org",
   "@type": "Article",
   "datePublished": "2026-07-16",
-  "dateModified": "2026-10-23",
+  "dateModified": "2026-10-26",
   "url": "https://softwaresorted.co.uk/mtd/best-mtd-software-for-uk-landlords/",
   "headline": "Best MTD Software for UK Landlords (2026): 4 Compared",
   "description": "FreeAgent, Xero, QuickBooks and Sage compared for UK landlords under MTD for Income Tax: per-property tracking, mixed income and real GBP prices.",
@@ -147,7 +147,7 @@ footer a{color:var(--muted)}
       "name": "Do I need MTD software if I'm a landlord earning under £50,000?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Not yet, but the threshold is falling. Phase 2 brings landlords with qualifying income over £30,000 into scope from 6 April 2027, and Phase 3 brings the £20,000 threshold from 6 April 2028. If you're close to a threshold, starting digital record-keeping ahead of the mandatory date isn't required, but it removes the scramble when your phase begins."
+        "text": "Not from April 2026 if your qualifying income in 2024–25 was £50,000 or less — but the threshold is falling. Qualifying income is your gross self-employment and property income added together, before expenses, so count both. Phase 2 brings in qualifying income over £30,000 in 2025–26, from 6 April 2027. Phase 3 brings in qualifying income over £20,000 in 2026–27, from 6 April 2028. Starting digital records before your phase isn't required, but it removes the scramble when it begins."
       }
     },
     {
@@ -155,7 +155,7 @@ footer a{color:var(--muted)}
       "name": "Which software is best for a landlord with more than one property?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "FreeAgent and Sage both offer purpose-built per-property tracking, letting you see profitability property-by-property rather than as one combined total. QuickBooks can technically track multiple properties using its Classes/Locations feature, but that's only available on higher-priced tiers and isn't a dedicated property module."
+        "text": "FreeAgent is the only one of the four with a dedicated property feature — its landlord account gives you a profit and loss report for each property. The other three use general-purpose features you set up yourself: tracking categories in Xero, Classes or Locations (Plus and Advanced plans) or tags (Simple Start and above — check first) in QuickBooks, and Analysis types in Sage Accounting Standard and above."
       }
     },
     {
@@ -163,7 +163,7 @@ footer a{color:var(--muted)}
       "name": "Can I use the same software for rental income and self-employment income?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It depends on the tool, and this changes as vendors update their products — FreeAgent's and QuickBooks' own support documentation both describe rental and self-employment income as needing two separate accounts. Check Xero's and Sage's current handling with the vendor before assuming either fits your exact situation."
+        "text": "Yes, with some tools. Xero says you can manage self-employment and property income in the same subscription. Sage Sole Trader's £7/month version can hold both as separate businesses under one login and one subscription; the free version allows one income source. FreeAgent and QuickBooks need two separate accounts. Whichever you choose, each income stream sends its own quarterly updates. Check the current setup with the vendor before you sign up."
       }
     },
     {
@@ -171,7 +171,7 @@ footer a{color:var(--muted)}
       "name": "Is MTD for Income Tax the same as MTD for VAT?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. MTD for VAT has applied to VAT-registered businesses above the VAT threshold since 2022 and is a separate, already-established requirement. MTD for Income Tax Self Assessment (MTD ITSA) is the newer mandate covering sole traders' and landlords' income tax, being phased in from 6 April 2026 by income threshold. This guide covers MTD ITSA for landlords specifically."
+        "text": "No. MTD for VAT became mandatory for businesses above the VAT threshold in April 2019, and for all VAT-registered businesses in April 2022. It's a separate requirement. MTD for Income Tax is the newer one: it covers sole traders' and landlords' income tax and is being phased in from 6 April 2026 by qualifying income. This guide covers MTD for Income Tax for landlords."
       }
     },
     {
@@ -179,7 +179,7 @@ footer a{color:var(--muted)}
       "name": "What happens if I don't comply once I'm in scope?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "HMRC will expect digital records and quarterly updates once your qualifying income crosses your phase's threshold. This guide doesn't cover HMRC's penalty framework in detail — check current guidance directly on gov.uk or with an accountant, since exact penalty mechanics for MTD ITSA are a compliance question this page isn't positioned to answer for your specific situation."
+        "text": "Once you're in, HMRC expects digital records, quarterly updates, and a year-end tax return sent through your software by 31 January after the tax year. Penalties under MTD for Income Tax are point-based. HMRC won't give penalties for missing a quarterly update deadline in the 2026–27 tax year, but late tax returns still get points. For the full rules, see HMRC's penalties guidance on gov.uk, or speak to an accountant."
       }
     }
   ]
@@ -316,48 +316,49 @@ document.getElementById('hamburger').addEventListener('click',function(){
 
   <div class="quick-facts">
     <div class="qf-item"><span class="qf-label">Tools compared</span><span class="qf-value">4</span></div>
-    <div class="qf-item"><span class="qf-label">Price range</span><span class="qf-value">Free–£43/mo</span></div>
+    <div class="qf-item"><span class="qf-label">Entry price</span><span class="qf-value">Free–£10/mo</span></div>
     <div class="qf-item"><span class="qf-label">Mandate status</span><span class="qf-value">Phase 1 live since 6 Apr 2026</span></div>
-    <div class="qf-item"><span class="qf-label">Who's in scope now</span><span class="qf-value">£50k+ qualifying income</span></div>
-    <div class="qf-item"><span class="qf-label">Next threshold</span><span class="qf-value">£30k from 6 Apr 2027</span></div>
-    <div class="qf-item"><span class="qf-label">Native property tracking</span><span class="qf-value">FreeAgent, Xero, Sage</span></div>
+    <div class="qf-item"><span class="qf-label">Who's in scope now</span><span class="qf-value">Over £50k qualifying income (2024–25)</span></div>
+    <div class="qf-item"><span class="qf-label">Next threshold</span><span class="qf-value">Over £30k (2025–26) from 6 Apr 2027</span></div>
+    <div class="qf-item"><span class="qf-label">Dedicated property module</span><span class="qf-value">FreeAgent only</span></div>
     <div class="qf-item"><span class="qf-label">Weakest landlord workflow</span><span class="qf-value">QuickBooks</span></div>
-    <div class="qf-item"><span class="qf-label">Last reviewed</span><span class="qf-value">2026-07-16</span></div>
+    <div class="qf-item"><span class="qf-label">Last reviewed</span><span class="qf-value">2026-10-26</span></div>
   </div>
 
-  <p>If you're a UK landlord with qualifying property income over £50,000, Making Tax Digital for Income Tax stopped being a future problem on 6 April 2026 — it's now a live legal requirement. You need to keep digital records of your rental income and expenses and send HMRC quarterly updates, rather than filing one Self Assessment return a year. The next threshold — £30,000 — brings a much larger group of landlords into scope from 6 April 2027.</p>
+  <p>If you're a UK landlord with qualifying income over £50,000 in 2024–25, Making Tax Digital for Income Tax stopped being a future problem on 6 April 2026. It's now a legal requirement. Qualifying income is your total gross income from self-employment and property combined, before expenses — not your rent alone. <a href="https://www.gov.uk/guidance/work-out-your-qualifying-income-for-making-tax-digital-for-income-tax" target="_blank" rel="noopener">HMRC's own example</a>: £25,000 of rental income plus £27,000 of self-employment income is £52,000 of qualifying income. Once you're in, you keep digital records, send HMRC quarterly updates, and then submit your tax return through the same software by 31 January after the tax year ends. The next threshold — over £30,000 in 2025–26 — brings a much larger group of landlords into scope from 6 April 2027.</p>
   <p>This guide compares four MTD-compatible tools — FreeAgent, Xero, QuickBooks, and Sage — specifically for how well each one handles <strong>property income</strong>, not just general bookkeeping. That distinction matters more than it looks: not all "MTD-ready" accounting software treats a landlord's rental income the same way it treats a sole trader's business income.</p>
+  <div style="border:1px solid var(--border);border-radius:var(--r);padding:0.75rem 1rem;margin:1.25rem 0;font-size:0.875rem;color:var(--muted)"><p style="margin:0">This page is editorial analysis of software options, not tax advice. Your MTD obligations depend on your own circumstances — verify them with HMRC directly or speak to a tax adviser before choosing software.</p></div>
 
   <h2>Quick Verdict</h2>
   <div class="verdict">
-    <p><strong>FreeAgent</strong> and <strong>Sage</strong> both offer accounts built specifically around property income, with per-property profit tracking — the more natural fit if managing your portfolio clearly, not just filing compliantly, matters to you. <strong>Xero</strong> sits in the middle: solid MTD-for-landlords support with its own dedicated hub, but less property-specific structure than FreeAgent or Sage. <strong>QuickBooks</strong> is MTD-compliant, but it has no dedicated property module — tracking multiple properties relies on its Classes/Locations feature (higher tiers only), and, as with FreeAgent, rental income and a separate self-employment income stream need two separate accounts rather than one.</p>
-    <p>If you manage one or two properties and want the simplest MTD-compliant option: Sage Sole Trader (free), Xero's Simple tier (£7/month) or QuickBooks (£10/month) are all workable. Worth knowing: the Sage and Xero plans are only for people who aren't VAT-registered. If you manage a multi-property portfolio and want to see profitability per property: FreeAgent or Sage are the better starting point.</p>
+    <p><strong>FreeAgent</strong> gives the clearest property-by-property view. Its landlord account is the only one of the four with a dedicated property feature and a profit and loss report for each property. The catch: if you also have self-employment income, you'll need a second FreeAgent account. <strong>Xero</strong> says it can handle self-employment and property income in the same subscription, and it's the one accountants are most likely to know. Per-property tracking uses its general-purpose tracking categories rather than a property module. It's also the only one of the four that HMRC's software finder lists for foreign property income. <strong>Sage</strong> is the cheapest start: Sage Sole Trader is free for straightforward UK lets if you're not VAT-registered, its £7/month version can hold more than one income source, and VAT-registered landlords need Sage Accounting. <strong>QuickBooks</strong> works for a single, simple let, but it's the weakest landlord fit here — no property module, a separate account for each income source, and no support yet for overseas property under MTD.</p>
+    <p>One or two straightforward UK lets and not VAT-registered: start with Sage Sole Trader (free) or Xero Simple (£7/month). Several properties and you want profit per property: FreeAgent. Rental income plus self-employment income: Xero, or Sage Sole Trader's £7/month version, keeps both in one subscription — FreeAgent and QuickBooks need two accounts. Whichever you pick, each income stream sends its own quarterly updates.</p>
   </div>
 
   <h2>Why This Decision Matters Now</h2>
-  <p>Phase 1 of MTD for Income Tax Self Assessment applies to sole traders and landlords with qualifying income over £50,000 in the 2024–25 tax year, and it has been mandatory since 6 April 2026. Phase 2 drops the threshold to £30,000 from 6 April 2027, and Phase 3 drops it again to £20,000 from 6 April 2028 — so the population required to comply gets significantly larger every year through the rest of the decade.</p>
-  <p>A genuine exemption exists, but HMRC has been explicit about what does and doesn't qualify: age, disability, remote location, or a religious objection to using computers can exempt you. "I'm not comfortable with software," "I don't have many transactions," and "it costs money" are explicitly <strong>not</strong> accepted grounds. If you're a landlord above the threshold, digital record-keeping and quarterly updates are the default expectation, not an option to weigh up.</p>
+  <p>Phase 1 of MTD for Income Tax applies to sole traders and landlords with qualifying income over £50,000 in the 2024–25 tax year, and it has been mandatory since 6 April 2026. Phase 2 brings in qualifying income over £30,000 in 2025–26, from 6 April 2027. Phase 3 brings in qualifying income over £20,000 in 2026–27, from 6 April 2028. At £20,000 or less you don't need to use it — the government has said it's exploring lower thresholds, but nothing is confirmed. If you have rental income and self-employment income, both count towards your qualifying income. If you own a property jointly, only your share of the property income counts — for example, an equal share of £50,000 of property income is £25,000. (<a href="https://www.gov.uk/guidance/check-if-youre-eligible-for-making-tax-digital-for-income-tax" target="_blank" rel="noopener">HMRC's eligibility guidance</a> sets out the rules.)</p>
+  <p>You can apply for an exemption if you're digitally excluded. <a href="https://www.gov.uk/guidance/find-out-if-you-can-get-an-exemption-from-making-tax-digital-for-income-tax" target="_blank" rel="noopener">HMRC's exemption guidance</a> lists these grounds: your age, a health condition or a disability stops you using a computer, tablet or smartphone; you belong to a religious society whose beliefs are incompatible with digital communications; or you can't get internet access because of where you live. These reasons are <strong>not</strong> accepted on their own: you've filed a paper return before, you're unfamiliar with accountancy software, you only have a small number of digital records, or it will take extra time or cost to sign up and use software. HMRC considers other reasons case by case. If you're above the threshold and not exempt, digital records, quarterly updates and a year-end return through your software are the default, not an option to weigh up.</p>
   <div class="highlight">
-    <p><strong>Worth knowing:</strong> MTD ITSA applies to individuals — sole traders and landlords — not limited companies. If you hold property through a limited company, this mandate doesn't apply to you; you're already filing under Corporation Tax rules. This guide is for landlords who hold property personally or in a partnership, not through a company structure.</p>
+    <p><strong>Worth knowing:</strong> MTD for Income Tax applies to individuals — sole traders and landlords — not limited companies. If you hold property through a limited company, it doesn't apply to you. Partnerships don't currently need to use it either — HMRC says they'll follow at a later date — and a partnership profit share doesn't count towards your qualifying income. This guide is for landlords who hold property personally.</p>
   </div>
 
   <h2>The Four Tools Compared</h2>
 
   <div class="card" style="margin:1rem 0">
-    <span class="tag tag-best">Best for multi-property portfolios</span>
+    <span class="tag tag-best">Clearest per-property view</span>
     <h3>FreeAgent — dedicated landlord account type</h3>
     <p><strong>Approx. pricing:</strong> Landlord plan from £10/month (list price; introductory promotional pricing is common — check freeagent.com for the current rate)</p>
-    <p>FreeAgent runs a separate account type built specifically for landlords, with a Property feature that attributes income and costs to individual properties so you can see profitability property-by-property, not just as one combined total. It's worth noting this wasn't always the case — FreeAgent had a reputation for weak rental-income support before it launched a dedicated landlord product in 2022, so older reviews or forum comments describing it as "not for landlords" are out of date.</p>
-    <p><strong>Catch:</strong> If you have both rental income and self-employment income, you'll need two FreeAgent accounts — a sole trader account and a landlord account. FreeAgent's own support documentation says property income can't be recorded in a sole trader account, or business income in a landlord account. You can only submit your Self Assessment from one of them, so the other income stream's figures are entered manually.</p>
+    <p>FreeAgent runs a separate UK Unincorporated Landlord account type with a Property feature. You attribute income and costs to individual properties and get a Profit &amp; Loss report for each one — the only dedicated property module of the four tools here. The property features only exist in landlord accounts, and they're for UK property, not property overseas. Worth knowing: FreeAgent launched landlord accounts for accountants' clients in 2022 and opened them to all landlords in November 2023, so older reviews that call it unsuitable for landlords are out of date.</p>
+    <p><strong>Catch:</strong> If you have both rental income and self-employment income, you'll need two FreeAgent accounts — a sole trader account and a landlord account. FreeAgent says property income can't be recorded in a sole trader account. Each account sends the quarterly updates for its own income stream. FreeAgent's help centre says you then make one final declaration, from either account — confirm the current process with FreeAgent before you set up.</p>
     <p><a href="https://www.freeagent.com" target="_blank" rel="nofollow noopener">Visit FreeAgent →</a></p>
   </div>
 
   <div class="card" style="margin:1rem 0">
-    <span class="tag tag-best">Best all-rounder, dedicated landlord hub</span>
-    <h3>Xero — solid MTD support, less property-specific structure</h3>
-    <p><strong>Approx. pricing:</strong> Simple tier from £7/month, Ignite tier from £18/month (list prices; check xero.com/uk for current promotional rates)</p>
-    <p>Xero publishes a dedicated Making Tax Digital for landlords hub and is on HMRC's list of MTD-compatible software, with property-income tracking built in. In our experience it's the one UK accountants are most likely to already know, which matters if you use one — familiarity means less friction at handover and filing time.</p>
-    <p><strong>Catch:</strong> Xero's property tracking is less structured around "per-property profitability" than FreeAgent's or Sage's dedicated landlord features — it will get your records MTD-compliant, but if you specifically want a clear property-by-property profit breakdown as a portfolio-management tool (not just a compliance tool), check this against FreeAgent or Sage before choosing on price alone.</p>
+    <span class="tag tag-best">Mixed income in one subscription</span>
+    <h3>Xero — self-employment and property in one subscription</h3>
+    <p><strong>Approx. pricing:</strong> Simple tier from £7/month (only if you're not VAT-registered, and up to 10 invoices), Ignite tier from £18/month (list prices; check xero.com/uk for current promotional rates)</p>
+    <p>Xero publishes a dedicated <a href="https://www.xero.com/uk/programme/making-tax-digital/landlords-property-income/" target="_blank" rel="nofollow noopener">Making Tax Digital for landlords hub</a> and is listed in <a href="https://www.gov.uk/guidance/find-software-thats-compatible-with-making-tax-digital-for-income-tax" target="_blank" rel="noopener">HMRC's software finder</a> for sole trader, UK property and foreign property income. Xero also says you can manage your self-employment and property income in the same subscription — useful if you have both, though each income stream still sends its own quarterly updates. Check with Xero which plan you need for that. In our experience it's the one UK accountants are most likely to already know, which matters if you use one — familiarity means less friction at handover and filing time.</p>
+    <p><strong>Catch:</strong> Xero has no property module. For per-property figures, Xero's own guides point to tracking categories — a general-purpose feature where you set up each property yourself. It works, but it's a setup job rather than a built-in property feature like FreeAgent's. We haven't confirmed which Xero plans include tracking categories, and Simple is capped at 10 invoices, so check the plan against your needs with Xero before choosing on price.</p>
     <p><a href="https://www.xero.com" target="_blank" rel="nofollow noopener">Visit Xero →</a></p>
   </div>
 
@@ -365,19 +366,19 @@ document.getElementById('hamburger').addEventListener('click',function(){
     <span class="tag tag-ok">Weakest landlord-specific workflow</span>
     <h3>QuickBooks — MTD-compliant, no dedicated property module</h3>
     <p><strong>Approx. pricing:</strong> Sole Trader Plus plan from £10/month (list price; QuickBooks runs aggressive introductory discounts — e.g. promotional rates as low as £1/month for a limited period — check quickbooks.intuit.com/uk for the current offer and the price it reverts to)</p>
-    <p>QuickBooks UK is confirmed MTD-compliant for landlords from 6 April 2026. Its Sole Trader Plus plan is £10/month, the same as FreeAgent's Landlord plan. If your situation is simple — one property, no separate self-employment income — it will do the job.</p>
+    <p>QuickBooks says it's ready for MTD for Income Tax, including UK property income. Its Sole Trader Plus plan is £10/month, the same as FreeAgent's Landlord plan. If your situation is simple — one UK property, no separate self-employment income — it will do the job.</p>
     <div class="catch">
-      <p><strong>Catch:</strong> QuickBooks has no dedicated property module. Tracking income and costs per property relies on its general-purpose Classes or Locations feature, which is only available on higher-priced tiers — not the entry-level plan the headline price refers to. More significantly, if you have <strong>both</strong> rental income and self-employment income, QuickBooks' own support documentation describes managing these as separate income sources requiring a second, separate QuickBooks account — the same arrangement FreeAgent's documentation describes for its own sole trader and landlord accounts. If you have mixed income types, check how Xero and Sage handle it before signing up.</p>
+      <p><strong>Catch:</strong> QuickBooks has no dedicated property module. For per-property figures there are two general-purpose routes: Classes or Locations, only on Plus (£56/month) and Advanced, or — according to QuickBooks' help — tags with a profit and loss by tag report on Simple Start (£16/month) and above — check this with QuickBooks before signing up. Classes and Locations aren't on the £10 Sole Trader Plus plan, and we couldn't confirm tags are either. If you have <strong>both</strong> rental income and self-employment income, QuickBooks says each account can only connect to one primary income source for MTD, so you'd need two separate QuickBooks accounts. And QuickBooks doesn't currently support foreign property businesses for MTD, so it's not an option if you let property overseas.</p>
     </div>
     <p><a href="https://www.quickbooks.intuit.com/uk" target="_blank" rel="nofollow noopener">Visit QuickBooks →</a></p>
   </div>
 
   <div class="card" style="margin:1rem 0">
-    <span class="tag tag-best">Widest property-type coverage</span>
-    <h3>Sage — explicit support for buy-to-let, FHLs, and non-UK property</h3>
-    <p><strong>Approx. pricing:</strong> Sage Sole Trader free (or £7/month for the paid version), Sage Accounting Standard (multi-property) tier from £43/month (list prices; check sage.com/en-gb for current promotional rates)</p>
-    <p>Sage Accounting publishes explicit MTD-for-landlords support that names buy-to-let, furnished holiday lets (FHLs), and non-UK and commercial property as in scope — in our reading, the most detailed property-type breakdown in any of the four vendors' own material. Worth a look if your portfolio includes anything beyond a standard single buy-to-let (an FHL, a commercial unit, or an overseas property).</p>
-    <p><strong>Catch:</strong> Sage Sole Trader is free (or £7/month for the paid version), but both versions are only for sole traders who aren't VAT-registered, and the free version is limited to one bank account. If you're VAT-registered, or need more than Sole Trader offers, you're looking at Sage Accounting instead — Start is £20/month and Standard is £43/month. Confirm which plan your portfolio actually needs before comparing headline prices with the other three tools.</p>
+    <span class="tag tag-best">Cheapest start for straightforward lets</span>
+    <h3>Sage — free Sole Trader plan for straightforward UK lets</h3>
+    <p><strong>Approx. pricing:</strong> Sage Sole Trader free (or £7/month for the paid version); Sage Accounting Start £20/month, Standard £43/month, Plus £59/month (list prices; check sage.com/en-gb for current promotional rates)</p>
+    <p>Sage Sole Trader covers UK property income and is free if you're not VAT-registered — the lowest entry price of the four. The free version has one bank connection and one income source. The £7/month version allows multiple bank connections and can hold more than one income source — rental and self-employment, say — as separate businesses under one login and one subscription, each sending its own quarterly updates. Sage says Sole Trader suits landlords with straightforward needs.</p>
+    <p><strong>Catch:</strong> Sage Sole Trader applies one ownership share across all your UK property income, so it can't handle different shares in different properties. There's no dedicated property module either: for a per-property view, Sage's help points to Analysis types, a general-purpose feature on Sage Accounting Standard (£43/month) and above. If you're VAT-registered you need Sage Accounting, not Sole Trader. And Sage's documentation covers UK property income, and HMRC's software finder doesn't list Sage Sole Trader &amp; Landlord for foreign property — if you let property overseas, check with Sage before signing up. Confirm which plan you actually need before comparing headline prices with the other three tools.</p>
     <p><a href="https://www.sage.com/en-gb" target="_blank" rel="nofollow noopener">Visit Sage →</a></p>
   </div>
 
@@ -387,9 +388,9 @@ document.getElementById('hamburger').addEventListener('click',function(){
       <h3>By portfolio type</h3>
       <ul>
         <li><strong>One property, straightforward buy-to-let:</strong> Sage Sole Trader, Xero (Simple) or QuickBooks — all MTD-compliant and cost-effective. Sage Sole Trader and Xero Simple are for non-VAT-registered users only</li>
-        <li><strong>Multiple properties, want per-property profit visibility:</strong> FreeAgent or Sage</li>
-        <li><strong>Rental income plus separate self-employment income:</strong> no clear winner — FreeAgent and QuickBooks both document needing two separate accounts; check Xero and Sage before signing up</li>
-        <li><strong>FHL, commercial, or non-UK property:</strong> Sage — most explicit vendor documentation for these property types</li>
+        <li><strong>Multiple properties, want per-property profit visibility:</strong> FreeAgent — the only dedicated per-property report. Xero, QuickBooks and Sage can get there with general-purpose features you set up yourself</li>
+        <li><strong>Rental income plus separate self-employment income:</strong> Xero (says it handles both in one subscription) or Sage Sole Trader's £7/mo version (separate businesses, one subscription). FreeAgent and QuickBooks need two accounts. Either way, each income stream sends its own quarterly updates</li>
+        <li><strong>Overseas property or a former holiday let:</strong> holiday lets have been taxed as ordinary property income since April 2025. For overseas property, Xero is the only one of the four that HMRC's software finder lists for foreign property income. QuickBooks says it doesn't support foreign property for MTD yet, and FreeAgent and Sage aren't listed for it — check with the vendor before choosing</li>
       </ul>
     </div>
     <div class="card">
@@ -397,73 +398,82 @@ document.getElementById('hamburger').addEventListener('click',function(){
       <ul>
         <li><strong>Cheapest to start:</strong> Sage Sole Trader (free) or Xero (Simple, £7/mo) — both only if you're not VAT-registered</li>
         <li><strong>Most accountant-familiar:</strong> arguably Xero</li>
-        <li><strong>Clearest property-by-property view:</strong> FreeAgent or Sage</li>
-        <li><strong>Want rental and self-employment income in one account:</strong> not FreeAgent or QuickBooks — both document needing two separate accounts</li>
+        <li><strong>Clearest property-by-property view:</strong> FreeAgent</li>
+        <li><strong>Want rental and self-employment income in one subscription:</strong> Xero, or Sage Sole Trader's £7/mo version — not FreeAgent or QuickBooks, which need two accounts</li>
       </ul>
     </div>
   </div>
 
   <h2>Price and Property-Support Comparison</h2>
   <div class="table-wrap">
-    <table>
-      <tr><th>Tool</th><th>Entry price</th><th>Multi-property tier</th><th>Dedicated property module?</th><th>Best for</th></tr>
-      <tr><td>FreeAgent</td><td>£10/mo (Landlord plan)</td><td>Included in Landlord plan</td><td>Yes — per-property profit tracking</td><td>Multi-property portfolios</td></tr>
-      <tr><td>Xero</td><td>£7/mo (Simple)</td><td>£18/mo (Ignite)</td><td>Property tracking, less structured than FreeAgent/Sage</td><td>Simple portfolios, accountant familiarity</td></tr>
-      <tr><td>QuickBooks</td><td>£10/mo (Sole Trader Plus)</td><td>Higher tier — Classes/Locations feature</td><td>No — general-purpose workaround only</td><td>Single property, straightforward situation</td></tr>
-      <tr><td>Sage</td><td>Free (Sole Trader); £7/mo paid</td><td>£43/mo (Standard)</td><td>Yes — explicit FHL/commercial/non-UK support</td><td>Complex or non-standard property types</td></tr>
+    <table style="min-width:720px">
+      <tr><th>Tool</th><th>Entry price</th><th>Per-property tracking</th><th>Rental + self-employment</th><th>Foreign property (HMRC finder)</th><th>Best for</th></tr>
+      <tr><td>FreeAgent</td><td>£10/mo (Landlord plan)</td><td>Property feature with per-property P&amp;L — Landlord plan, £10/mo</td><td>Two accounts</td><td>Not listed</td><td>Clearest per-property view</td></tr>
+      <tr><td>Xero</td><td>£7/mo (Simple, not VAT-registered)</td><td>Tracking categories (general-purpose) — plan not confirmed</td><td>One subscription, per Xero</td><td>Listed</td><td>Mixed income, accountant familiarity</td></tr>
+      <tr><td>QuickBooks</td><td>£10/mo (Sole Trader Plus)</td><td>Classes/Locations on Plus (£56/mo) and up; tags on Simple Start (£16/mo) and up (check before signing up)</td><td>Two accounts</td><td>Not listed</td><td>A single, simple UK let</td></tr>
+      <tr><td>Sage</td><td>Free (Sole Trader, not VAT-registered); £7/mo paid</td><td>Analysis types (general-purpose) on Accounting Standard (£43/mo) and up</td><td>One subscription on the £7/mo tier (separate businesses)</td><td>Not listed</td><td>Straightforward UK lets on a budget</td></tr>
     </table>
   </div>
-  <p style="font-size:0.8125rem;color:var(--muted)">Prices are approximate list prices in GBP, checked October 2026, and exclude VAT. All four vendors run frequent introductory promotional pricing — confirm the current offer and the steady-state price it reverts to directly with each vendor before committing.</p>
+  <p style="font-size:0.8125rem;color:var(--muted)">Prices are approximate list prices in GBP, checked October 2026, and exclude VAT. All four vendors run frequent introductory promotional pricing — confirm the current offer and the steady-state price it reverts to directly with each vendor before committing. All four are listed in <a href="https://www.gov.uk/guidance/find-software-thats-compatible-with-making-tax-digital-for-income-tax" target="_blank" rel="noopener">HMRC's software finder</a> for sole trader and UK property income (checked 26 October 2026). Only Xero is also listed for foreign property income.</p>
 
   <h2>What to Check Before You Commit</h2>
   <div class="table-wrap">
     <table>
       <tr><th>Question</th><th>Why it matters</th></tr>
-      <tr><td>Do you have rental income AND separate self-employment income?</td><td>FreeAgent's and QuickBooks' own documentation both describe this as needing two separate accounts. Check Xero's and Sage's handling before assuming any tool covers both in one place.</td></tr>
-      <tr><td>Do you manage more than one property?</td><td>FreeAgent and Sage give per-property profit visibility natively. QuickBooks relies on a higher-tier Classes/Locations workaround, not a purpose-built feature.</td></tr>
-      <tr><td>Is your qualifying income already over £50,000?</td><td>You're required to comply now — Phase 1 has been mandatory since 6 April 2026.</td></tr>
-      <tr><td>Is your qualifying income between £30,000 and £50,000?</td><td>You have until 6 April 2027 (Phase 2) — but nothing stops you registering and starting digital records earlier.</td></tr>
-      <tr><td>Do you hold any FHL, commercial, or overseas property?</td><td>Sage documents explicit support for these property types more clearly than the other three vendors.</td></tr>
+      <tr><td>Do you have rental income AND separate self-employment income?</td><td>Both count towards your qualifying income. Xero says it handles both in one subscription; Sage Sole Trader's £7/mo version holds them as separate businesses in one subscription. FreeAgent and QuickBooks need two accounts. Each income stream still sends its own quarterly updates.</td></tr>
+      <tr><td>Do you manage more than one property?</td><td>FreeAgent is the only one with a built-in per-property profit and loss report. Xero (tracking categories), QuickBooks (Classes/Locations on Plus, or tags on Simple Start and up — check first) and Sage (Analysis types on Accounting Standard and up) use general-purpose features you set up yourself.</td></tr>
+      <tr><td>Was your qualifying income over £50,000 in 2024–25?</td><td>Qualifying income is self-employment and property income combined, before expenses. Above £50,000, MTD for Income Tax has applied since 6 April 2026 unless you're exempt.</td></tr>
+      <tr><td>Is your qualifying income over £30,000 in 2025–26?</td><td>If you're not already in, Phase 2 brings you in from 6 April 2027 — but nothing stops you registering and starting digital records earlier.</td></tr>
+      <tr><td>Do you let property overseas, or a former furnished holiday let?</td><td>Former holiday lets have been taxed as ordinary property income since April 2025. For overseas property, HMRC's software finder lists Xero for foreign property income; QuickBooks, FreeAgent and Sage aren't listed for it. Check with the vendor before choosing.</td></tr>
       <tr><td>Do you use an accountant?</td><td>Ask which of the four they're most familiar with — in our experience Xero is the one most likely to be familiar, which can reduce handover friction at year-end.</td></tr>
     </table>
   </div>
 
   <h2>The Decision Framework</h2>
-  <div class="decision">Qualifying property income over £50,000
-→ You are required to comply now. Phase 1 has been mandatory
-  since 6 April 2026 — this isn't optional.
+  <div class="decision">Qualifying income over £50,000 in 2024–25
+(self-employment + property, gross, added together)
+→ MTD for Income Tax has applied since 6 April 2026,
+  unless you're exempt. That means quarterly updates and a
+  year-end return through your software by 31 January.
 
-One property, straightforward buy-to-let, want the lowest cost
+One straightforward UK let, want the lowest cost
 → Sage Sole Trader (free) or Xero (Simple, £7/mo), if you're
   not VAT-registered. Next cheapest: QuickBooks or FreeAgent
-  (both £10/mo). All are MTD-ready.
+  (both £10/mo).
 
 Multiple properties, want to see profit per property
-→ FreeAgent or Sage. Both have purpose-built property tracking;
-  QuickBooks' Classes/Locations workaround is not equivalent.
+→ FreeAgent: the only built-in per-property report.
+  Others use general-purpose features you set up:
+  Xero tracking categories, QuickBooks Classes/Locations
+  (Plus, £56/mo) or tags (Simple Start, £16/mo), Sage
+  Analysis types (Accounting Standard, £43/mo).
 
-Rental income AND separate self-employment income
-→ FreeAgent and QuickBooks both require two separate accounts
-  for this, per their own support documentation.
-  Check Xero and Sage before signing up.
+Rental income AND self-employment income
+→ Xero says it handles both in one subscription.
+  Sage Sole Trader's £7/mo version holds both as
+  separate businesses in one subscription.
+  FreeAgent and QuickBooks need two accounts.
+  Each income stream sends its own quarterly updates.
 
-FHL, commercial, or non-UK property in your portfolio
-→ Sage documents explicit support for these property types.
+Overseas property in your portfolio
+→ Xero is the only one HMRC's software finder lists
+  for foreign property income. QuickBooks, FreeAgent
+  and Sage aren't listed for it — check before signing up.
 
-Qualifying income between £30,000 and £50,000
-→ Not mandated until 6 April 2027, but nothing stops you
-  starting digital records now — it's the same requirement,
-  just not enforced yet for your income band.
+Qualifying income over £30,000 in 2025–26
+→ Phase 2 brings you in from 6 April 2027 if you're not
+  already in. Nothing stops you starting digital records now.
 
 Not sure where to start
-→ Check your qualifying income against the current threshold
+→ Check your qualifying income against HMRC's thresholds
   first (gov.uk), then choose by portfolio complexity above.</div>
 
   <h2>Who This Is NOT For</h2>
   <div class="not-for">
-    <p>This guide is for individual UK landlords and partnerships with qualifying property income who are in scope for MTD ITSA now or in the next phase. It is not for:</p>
-    <p><strong>Limited companies holding property</strong> — MTD ITSA applies to individuals, not companies. If you hold property through a limited company, you're already under Corporation Tax rules and this mandate doesn't apply to you.</p>
-    <p><strong>Landlords with qualifying income below £20,000</strong> — you are not yet in scope under any confirmed phase (Phase 3, from 6 April 2028, brings the threshold to £20,000; nothing below that has been confirmed as mandatory).</p>
+    <p>This guide is for individual UK landlords — including landlords who also have self-employment income — who are in scope for MTD for Income Tax now or in the next phase. It is not for:</p>
+    <p><strong>Limited companies holding property</strong> — MTD for Income Tax applies to individuals, not companies. If you hold property through a limited company, this mandate doesn't apply to you.</p>
+    <p><strong>Partnerships</strong> — partnerships don't currently need to use MTD for Income Tax; HMRC says they'll follow at a later date. Your share of partnership profit doesn't count towards your qualifying income either.</p>
+    <p><strong>Landlords with qualifying income of £20,000 or less</strong> — no confirmed phase covers you. Phase 3 (from 6 April 2028) applies to qualifying income over £20,000 in 2026–27; the government has said it's exploring lower thresholds, but nothing is confirmed. Remember qualifying income includes any self-employment income, not just rent.</p>
     <p><strong>UK tradespeople looking for job management software</strong> — if you're an electrician, plumber, or heating engineer looking for quoting, invoicing, and compliance-certificate software rather than tax-filing software, see our <a href="/electricians/best-job-management-software/">job management software guides</a> instead. This page is specifically about MTD tax compliance, not job management.</p>
   </div>
 
@@ -474,23 +484,23 @@ Not sure where to start
   <div class="faq">
     <div class="faq-item">
       <p class="faq-q">Do I need MTD software if I'm a landlord earning under £50,000?</p>
-      <p class="faq-a">Not yet, but the threshold is falling. Phase 2 brings landlords with qualifying income over £30,000 into scope from 6 April 2027, and Phase 3 brings the £20,000 threshold from 6 April 2028. If you're close to a threshold, starting digital record-keeping ahead of the mandatory date isn't required, but it removes the scramble when your phase begins.</p>
+      <p class="faq-a">Not from April 2026 if your qualifying income in 2024–25 was £50,000 or less — but the threshold is falling. Qualifying income is your gross self-employment and property income added together, before expenses, so count both. Phase 2 brings in qualifying income over £30,000 in 2025–26, from 6 April 2027. Phase 3 brings in qualifying income over £20,000 in 2026–27, from 6 April 2028. Starting digital records before your phase isn't required, but it removes the scramble when it begins.</p>
     </div>
     <div class="faq-item">
       <p class="faq-q">Which software is best for a landlord with more than one property?</p>
-      <p class="faq-a">FreeAgent and Sage both offer purpose-built per-property tracking, letting you see profitability property-by-property rather than as one combined total. QuickBooks can technically track multiple properties using its Classes/Locations feature, but that's only available on higher-priced tiers and isn't a dedicated property module.</p>
+      <p class="faq-a">FreeAgent is the only one of the four with a dedicated property feature — its landlord account gives you a profit and loss report for each property. The other three use general-purpose features you set up yourself: tracking categories in Xero, Classes or Locations (Plus and Advanced plans) or tags (Simple Start and above — check first) in QuickBooks, and Analysis types in Sage Accounting Standard and above.</p>
     </div>
     <div class="faq-item">
       <p class="faq-q">Can I use the same software for rental income and self-employment income?</p>
-      <p class="faq-a">It depends on the tool, and this changes as vendors update their products — FreeAgent's and QuickBooks' own support documentation both describe rental and self-employment income as needing two separate accounts. Check Xero's and Sage's current handling with the vendor before assuming either fits your exact situation.</p>
+      <p class="faq-a">Yes, with some tools. Xero says you can manage self-employment and property income in the same subscription. Sage Sole Trader's £7/month version can hold both as separate businesses under one login and one subscription; the free version allows one income source. FreeAgent and QuickBooks need two separate accounts. Whichever you choose, each income stream sends its own quarterly updates. Check the current setup with the vendor before you sign up.</p>
     </div>
     <div class="faq-item">
       <p class="faq-q">Is MTD for Income Tax the same as MTD for VAT?</p>
-      <p class="faq-a">No. MTD for VAT has applied to VAT-registered businesses above the VAT threshold since 2022 and is a separate, already-established requirement. MTD for Income Tax Self Assessment (MTD ITSA) is the newer mandate covering sole traders' and landlords' income tax, being phased in from 6 April 2026 by income threshold. This guide covers MTD ITSA for landlords specifically.</p>
+      <p class="faq-a">No. MTD for VAT became mandatory for businesses above the VAT threshold in April 2019, and for all VAT-registered businesses in April 2022. It's a separate requirement. MTD for Income Tax is the newer one: it covers sole traders' and landlords' income tax and is being phased in from 6 April 2026 by qualifying income. This guide covers MTD for Income Tax for landlords.</p>
     </div>
     <div class="faq-item">
       <p class="faq-q">What happens if I don't comply once I'm in scope?</p>
-      <p class="faq-a">HMRC will expect digital records and quarterly updates once your qualifying income crosses your phase's threshold. This guide doesn't cover HMRC's penalty framework in detail — check current guidance directly on gov.uk or with an accountant, since exact penalty mechanics for MTD ITSA are a compliance question this page isn't positioned to answer for your specific situation.</p>
+      <p class="faq-a">Once you're in, HMRC expects digital records, quarterly updates, and a year-end tax return sent through your software by 31 January after the tax year. Penalties under MTD for Income Tax are point-based. HMRC won't give penalties for missing a quarterly update deadline in the 2026–27 tax year, but late tax returns still get points. For the full rules, see <a href="https://www.gov.uk/guidance/penalties-for-making-tax-digital-for-income-tax" target="_blank" rel="noopener">HMRC's penalties guidance</a> on gov.uk, or speak to an accountant.</p>
     </div>
   </div>
 
