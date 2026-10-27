@@ -112,7 +112,7 @@ footer a{color:var(--muted)}
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "dateModified": "2026-10-23",
+  "dateModified": "2026-10-27",
   "url": "https://softwaresorted.co.uk/plumbers/job-management-software-gas-safe-water-regs/",
   "headline": "Gas Safe, Legionella & Water Regs Software for Plumbers",
   "description": "Which job management apps handle Gas Safe certificates, Legionella risk assessments and Water Regs records for UK plumbers? Four tools checked.",
@@ -142,7 +142,7 @@ footer a{color:var(--muted)}
       "name": "Which job management software produces Gas Safety Records (CP12) for UK plumbers?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Powered Now and Tradify both include UK Landlord Gas Safety Record forms. Powered Now's implementation is longer-established and also covers Legionella risk assessments and native CIS. Tradify added UK gas safety certificate forms more recently — worth testing if you only need Gas Safety Records and not Legionella. ServiceM8 doesn't ship a Gas Safety Record template of its own, but a paid third-party CP12 form is available from its Form Store, or you can build one with its form builder. Jobber has no gas safety certificate capability."
+        "text": "Powered Now and Tradify both include UK Landlord Gas Safety Record forms. Powered Now also has a Legionella risk assessment template and CIS invoicing (check which plan includes CIS). Tradify's gas forms are worth testing if you only need Gas Safety Records and not Legionella. ServiceM8 doesn't ship a Gas Safety Record template of its own, but a paid third-party CP12 form is available from its Form Store, or you can build one with its form builder. Jobber has no gas certificate template; you could build one with its custom checklists, but you'd be designing and checking it yourself."
       }
     },
     {
@@ -150,7 +150,7 @@ footer a{color:var(--muted)}
       "name": "Does any job management software handle Legionella risk assessments?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Powered Now includes a Legionella risk assessment template. No other tool in this comparison has one natively. ServiceM8 could theoretically be used to build one via its form builder, but this requires significant configuration."
+        "text": "Of the four tools here, only Powered Now includes a Legionella risk assessment template. ServiceM8's form builder and Jobber's custom checklists could be set up to record one, and Tradify's checklist forms may work too (check during the trial), but in each case you'd be building the form yourself."
       }
     },
     {
@@ -158,7 +158,7 @@ footer a{color:var(--muted)}
       "name": "Can I use Tradify if I'm Gas Safe registered?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, on its Pro (£37/mo) or Plus (£44/mo) plan — both include Gas Safety Record forms. On the entry Lite plan you'd need a separate system for them. If you also carry out Legionella assessments or need native CIS, Powered Now covers those and Tradify doesn't."
+        "text": "Yes, on its Pro (£37/mo) or Plus (£44/mo) plan — both include Gas Safety Record forms. On the entry Lite plan you'd need a separate system for them. If you also carry out Legionella assessments or need native CIS, Powered Now has a Legionella template and native CIS; Tradify has neither built in."
       }
     },
     {
@@ -166,7 +166,7 @@ footer a{color:var(--muted)}
       "name": "Does job management software handle Water Regulations notifications?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No tool in this category has native Water Fittings Regulations notification capability. If you're an Approved Contractor under a WaterSafe scheme (CIPHE, APHC, or similar), you notify through that scheme's own portal. Your job management software can store a record of the notification reference against the job, but it does not replace the scheme notification itself."
+        "text": "No tool in this category notifies the water company for you. In England and Wales, notifiable work under the Water Supply (Water Fittings) Regulations 1999 (for example a bath over 230 litres, certain showers and pumps, a reverse osmosis unit, a garden watering system or a new building) needs notice to your local water company before it starts. Approved contractors, such as WaterSafe members, are excused advance notice for only a few of those items. On completion an approved contractor gives the customer a signed certificate, with a copy to the water company if the work was notifiable. Your job management software can store the notice reference and the certificate against the job, but it does not replace either."
       }
     },
     {
@@ -174,7 +174,7 @@ footer a{color:var(--muted)}
       "name": "Does Powered Now integrate with Xero?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Powered Now integrates with Xero, Sage, and QuickBooks. The integration is functional; test it during the trial if hands-off Xero sync matters to you."
+        "text": "Yes, and with QuickBooks too. We couldn't confirm a Sage integration, so check with Powered Now first if you use Sage. The Xero integration is functional; test it during the trial if hands-off Xero sync matters to you."
       }
     },
     {
@@ -182,7 +182,7 @@ footer a{color:var(--muted)}
       "name": "What is the best job management software for a Gas Safe plumber?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Powered Now for most Gas Safe plumbers. It brings Gas Safety Records, Legionella templates, offline working, and CIS invoicing into one system (check which plan includes CIS). Tradify has added UK gas safety certificate forms and is worth considering if your gas work is purely Gas Safety Records with no Legionella requirement — but Powered Now's compliance implementation is more established and covers more ground."
+        "text": "Powered Now for most Gas Safe plumbers. It brings Gas Safety Records, Legionella templates, offline working, and CIS invoicing into one system (check which plan includes CIS). Tradify also has UK gas safety certificate forms and is worth considering if your gas work is purely Gas Safety Records with no Legionella requirement — but Powered Now covers more ground."
       }
     }
   ]
@@ -284,16 +284,16 @@ document.getElementById('hamburger').addEventListener('click',function(){
   <p>Before comparing the software, it's worth being precise about what "compliance" actually means here. There are four distinct areas:</p>
 
   <h3>1. Gas Safe Registration Records</h3>
-  <p>Every gas fitting job must be notified to Gas Safe Register. The engineer must hold a current Gas Safe card for the appliance type being worked on. This is a regulatory requirement under the Gas Safety (Installation and Use) Regulations 1998. Software cannot replace the registration itself, but it can record the job notification reference and store evidence of engineer competency.</p>
+  <p>In England and Wales, notifiable gas work — mainly installing a heat-producing appliance such as a boiler — has to be notified to the local authority under regulation 20 of the Building Regulations 2010. As a Gas Safe registered engineer you do that through Gas Safe Register's competent person scheme within 30 days of finishing the work, and the householder then receives a Building Regulations compliance certificate. Separately, the Gas Safety (Installation and Use) Regulations 1998 require you to be Gas Safe registered, and you must hold a current Gas Safe card for the type of work you're doing. Software can't do the notification for you, but it can record the notification reference against the job and store evidence of engineer competency.</p>
 
   <h3>2. Gas Safety Records (CP12 / Landlord Certificates)</h3>
-  <p>Landlords are legally required to have a Gas Safety Record completed annually for every gas appliance in a rented property. The Gas Safety (Installation and Use) Regulations require this to be carried out by a Gas Safe registered engineer, with a copy of the record given to existing tenants within 28 days of the check and to new tenants before they move in. The record must contain specific prescribed information: engineer name, registration number, appliance details, location, date, defects found, and whether the appliance was left safe to use. This is where most job management software fails — producing a legally valid Gas Safety Record (commonly called a CP12, though the official term is Landlord Gas Safety Record) requires a specifically structured certificate, not just a completed job note.</p>
+  <p>Landlords are legally required to have the gas appliances and flues they provide in a rented property safety-checked every year by a Gas Safe registered engineer, under the Gas Safety (Installation and Use) Regulations 1998. The landlord must give a copy of the record to existing tenants within 28 days of the check and to new tenants before they move in, and keep each record for at least two years. There's no official form: HSE says Gas Safe Register doesn't produce its own gas safety check record form, and landlords can design their own. What the law fixes is the content. Under regulation 36 the record must include the date of the check; the address of the property; the name and address of the landlord or their agent; a description and the location of each appliance or flue checked; any defect found and the remedial action taken; confirmation that the check met the requirements of regulation 36(9); and the name, signature and registration number of the engineer who did it. A job note could hold all of that, but a certificate form that asks for every item, takes the signature and produces a clean PDF is far easier to get right every time — and that's where most job management software falls short. (It's commonly called a CP12; the official term is Landlord Gas Safety Record.)</p>
 
   <h3>3. Legionella Risk Assessments</h3>
-  <p>The Health and Safety Executive's Approved Code of Practice L8 requires landlords and responsible persons for commercial properties to assess and control the risk of Legionella bacteria in water systems. Plumbers are frequently instructed to carry out these assessments, particularly for larger residential landlords and commercial clients. The assessment must be documented, the risk level recorded, and control measures specified. The HSE does not prescribe a specific form, but the record must demonstrate that a systematic assessment was carried out.</p>
+  <p>Landlords and those responsible for commercial premises must assess and control the risk of Legionella bacteria in water systems; the Health and Safety Executive's Approved Code of Practice L8 sets out how. For residential lettings, HSE says most landlords can assess the risk themselves, no “legionella test certificate” is required, and landlords are not necessarily required to record the findings. Where a client does bring you in to assess, a written record of the system, the risk level and the control measures is usually what they're paying for. The HSE does not prescribe a specific form for it.</p>
 
   <h3>4. Water Regulations Compliance (Water Fittings Notifications)</h3>
-  <p>The Water Supply (Water Fittings) Regulations 1999 require that certain plumbing work — including new connections, most bathroom installations, and any alteration to a hot water system — is either approved in advance by the water undertaker, or carried out by an Approved Contractor (a business enrolled in a WaterSafe-approved scheme). Approved Contractors must self-certify their work using the scheme's notification system. The record-keeping obligation falls on the contractor, not the customer.</p>
+  <p>In England and Wales, the Water Supply (Water Fittings) Regulations 1999 require advance notice to the water undertaker (your local water company) before certain listed work starts, and the work can't begin without its consent. The list includes, for example, a bath holding more than 230 litres, a bidet with an ascending spray or flexible hose, some shower units, a pump or booster drawing more than 12 litres a minute, a reverse osmosis unit, a reduced pressure zone (RPZ) valve or similar backflow device, a garden watering system, pipes laid outside less than 750mm or more than 1,350mm deep, a pond or pool over 10,000 litres, a new building, alterations to the water system in premises other than a house, and a material change of use. Most bathroom installations and hot water alterations aren't on it. Approved Contractors (members of a scheme such as WaterSafe) are excused advance notice for only a few of those items. When an Approved Contractor finishes the work, they must give the customer a signed certificate saying whether it complies, and send a copy to the water company if the work was notifiable.</p>
 
   <h2>How Each Tool Handles Compliance</h2>
 
@@ -310,14 +310,14 @@ document.getElementById('hamburger').addEventListener('click',function(){
         <td><strong>Powered Now</strong></td>
         <td>✅ Native — Gas Safe certificate form built in</td>
         <td>✅ Native template included</td>
-        <td>⚠️ Custom forms via form builder</td>
-        <td>✅ Native CIS invoices</td>
+        <td>⚠️ Via customisable forms</td>
+        <td>✅ Native CIS invoices (check which plan)</td>
       </tr>
       <tr>
         <td><strong>Tradify</strong></td>
-        <td>⚠️ UK forms added — Landlord Gas Safety Record included, verify meets Gas Safe Register format</td>
-        <td>❌ Not available</td>
-        <td>❌ Not available</td>
+        <td>⚠️ Landlord Gas Safety Record form on Pro and Plus, not Lite — check it captures every regulation 36 item</td>
+        <td>⚠️ No template — checklist forms may work, check during trial</td>
+        <td>⚠️ No template — checklist forms may work, check during trial</td>
         <td>⚠️ Via Xero or Sage (not QuickBooks)</td>
       </tr>
       <tr>
@@ -329,79 +329,79 @@ document.getElementById('hamburger').addEventListener('click',function(){
       </tr>
       <tr>
         <td><strong>Jobber</strong></td>
-        <td>❌ Not available</td>
-        <td>❌ Not available</td>
-        <td>❌ Not available</td>
+        <td>⚠️ Via custom checklist — no template</td>
+        <td>⚠️ Via custom checklist — no template</td>
+        <td>⚠️ Via custom checklist — no template</td>
         <td>❌ Not supported</td>
       </tr>
     </table>
   </div>
 
   <h2>Powered Now: Built Around UK Compliance</h2>
-  <p>Powered Now is arguably the most complete UK compliance tool in this category. It has Gas Safety Record production built in as a long-established native feature — a properly structured certificate that meets the prescribed format for Landlord Gas Safety Records. Tradify has more recently added UK Landlord Gas Safety Record forms, but Powered Now's implementation is the more established of the two, and only Powered Now also covers Legionella risk assessments and native CIS — areas where Tradify has no equivalent. Engineers complete the Powered Now certificate on their phone or tablet at the point of service; the record is timestamped, attached to the job, and can be emailed to the landlord or tenant directly from the app.</p>
-  <p>The Gas Safe Record form in Powered Now captures all legally required fields: engineer name and Gas Safe registration number, appliance type and location, date of inspection, any defects identified, whether the appliance was left safe to use (the "safe to use" declaration is a specific legal requirement). This is not a notes field — it's a structured certificate that generates a formatted PDF matching the expected layout that landlords and letting agents recognise.</p>
-  <p>For Legionella, Powered Now includes a risk assessment template that covers the key areas required by L8: system description, uses and population, potential for water temperature issues, evidence of Legionella growth conditions, and the resulting risk rating with recommended control measures. Again, this generates a PDF that can be stored against the customer record and emailed on completion.</p>
+  <p>Powered Now is the most complete of the four tools here for UK compliance paperwork. It has a Gas Safety Record form built in — a structured certificate rather than a job note. Tradify also has UK Landlord Gas Safety Record forms, but of the four tools here only Powered Now adds a Legionella risk assessment template and native CIS (check which plan includes CIS) — Tradify has neither built in. Engineers complete the Powered Now certificate on their phone or tablet at the point of service; the record is attached to the job and can be emailed to the landlord or tenant directly from the app.</p>
+  <p>The form is a structured certificate, not a notes field, and it produces a PDF you can send to the landlord. We haven't checked it field by field against regulation 36, so complete a test record during the trial and tick off each item in the list above.</p>
+  <p>For Legionella, Powered Now includes a risk assessment template. We couldn't confirm its exact fields, so check them against how you assess during the trial. Like the gas form, it produces a PDF that can be stored against the customer record and emailed on completion.</p>
 
   <div class="highlight">
-    <p><strong>Powered Now's compliance advantage in practice:</strong> A plumbing business doing 15 Gas Safety checks per month generates 15 compliance records that must be stored, issued to tenants, and retained for two years (the minimum period under the Gas Safety Regulations). With Powered Now, all of this happens within the same system as quoting and invoicing. With a tool that can't produce Gas Safety Records — Tradify on its Lite plan, ServiceM8 without a paid form, or Jobber — those 15 records live in a separate system or on paper, creating a documentation gap that becomes an insurance and regulatory liability.</p>
+    <p><strong>Powered Now's compliance advantage in practice:</strong> A plumbing business doing 15 Gas Safety checks per month generates 15 records a month that need to reach landlords promptly — the landlord has 28 days from the check to give tenants a copy, and must keep each record for at least two years. With Powered Now, all of this happens within the same system as quoting and invoicing. With a tool that can't produce Gas Safety Records out of the box — Tradify on its Lite plan, ServiceM8 without a paid form, or Jobber without a checklist you've built yourself — those 15 records live in a separate system or on paper, which is a second filing system to keep on top of.</p>
   </div>
 
   <h2>ServiceM8: Capable But Manual</h2>
-  <p>ServiceM8 has a form builder that allows Gas Safe certificate templates to be created from scratch. It is genuinely capable — the platform supports conditional logic, required fields, photo attachments, and signature capture, which gives you the building blocks of a compliant Gas Safety Record. But ServiceM8 doesn't ship with a Gas Safety Record template of its own. Your options are a paid, one-off CP12 form from a third-party developer on ServiceM8's Form Store, or building one yourself, ensuring it captures all prescribed fields in a format that meets the regulatory requirement.</p>
+  <p>ServiceM8 has a form builder that allows Gas Safe certificate templates to be created from scratch. It is genuinely capable — the platform supports conditional logic, required fields, photo attachments, and signature capture, which gives you the building blocks of a compliant Gas Safety Record. But ServiceM8 doesn't ship with a Gas Safety Record template of its own. Your options are a paid, one-off CP12 form from a third-party developer on ServiceM8's Form Store, or building one yourself and making sure it captures every item regulation 36 requires.</p>
   <p>For a business with a developer or technically confident admin, this is achievable. For a plumbing business where the owner is also the lead engineer, building and validating a legally compliant certificate template is a significant undertaking. The same applies to Legionella — the capability is there, but the template is not.</p>
   <p>There is a further consideration: ServiceM8 is at its best on iPhone. ServiceM8 says its Android app (ServiceM8 Lite) has almost all the same functionality as the iPhone app, but reviewers report it as weaker in practice. For a plumbing team where engineers use a mix of phones, test the full forms workflow on the Android phones during the free trial before relying on it for compliance paperwork.</p>
   <p>On CIS, ServiceM8 supports the domestic reverse charge through a one-time setup — 0% reverse charge tax rates and a separate invoice template — but doesn't document CIS deductions. If you work as a subcontractor on commercial projects or new-build sites, check how your accountant will handle the deductions.</p>
 
-  <h2>Tradify: Gas Certs Added, Legionella and CIS Still Missing</h2>
-  <p>Tradify has added UK Gas Safety Record forms to its feature set, including Landlord/Homeowner Gas Safety Records, Boiler Records, Central Heating Commissioning Certificates, and Gas Warning Notices. This is a meaningful change from a tool that historically had no gas compliance capability at all.</p>
-  <p>The remaining gap matters for many Gas Safe plumbers: no Legionella risk assessment templates, and it has no native CIS option — you need Xero or Sage. For a plumber who carries out Legionella assessments alongside boiler servicing, Tradify's compliance coverage remains partial. For a plumber who only needs Gas Safety Records — boiler services, annual landlord checks, no commercial water system work — Tradify's new gas forms are worth evaluating alongside Powered Now's more established implementation.</p>
-  <p>For plumbers who do not do gas work — water-only, drainage, bathroom installation — Tradify remains a strong choice for its quoting workflow and Xero integration. Water Regulations notifications are handled through the WaterSafe scheme's own portal regardless of which tool you use.</p>
+  <h2>Tradify: Gas Certs Yes, No Legionella Template or Native CIS</h2>
+  <p>Tradify has UK Gas Safety Record forms on its Pro and Plus plans, including Landlord/Homeowner Gas Safety Records, Boiler Records, Installation/Commissioning/Decommissioning Records, and Gas Warning Notices.</p>
+  <p>The gap that matters for many Gas Safe plumbers: no Legionella risk assessment template (its checklist forms may stretch to one — check during the trial), and no native CIS option — you need Xero or Sage. For a plumber who carries out Legionella assessments alongside boiler servicing, Tradify's compliance coverage remains partial. For a plumber who only needs Gas Safety Records — boiler services, annual landlord checks, no commercial water system work — Tradify's gas forms are worth evaluating alongside Powered Now's.</p>
+  <p>For plumbers who do not do gas work — water-only, drainage, bathroom installation — Tradify remains a strong choice for its quoting workflow and Xero integration. Water Regulations notices go to your local water company regardless of which tool you use.</p>
 
   <h2>Jobber: Not Designed for UK Compliance</h2>
-  <p>Jobber is a Canadian product. It handles the core job management workflow well — quoting, scheduling, invoicing, client communication — but it has no UK compliance features whatsoever. No Gas Safety Record capability, no Legionella templates, no CIS support, no Water Regulations notifications. It is priced in team-size bands rather than per user, and on Connect, the plan we compare teams on, it works out cheaper than per-user tools from about four staff, but that advantage does not outweigh the compliance gap for any Gas Safe registered plumbing business.</p>
-  <p>Jobber's strongest use case in UK plumbing is a larger water-only or drainage business — three or more field staff — where the compliance requirements are primarily covered by Water Regulations notifications through a WaterSafe scheme portal, and the primary challenge is managing team schedules, client communication, and cash flow. For that use case, Jobber is worth serious consideration. For any business doing gas work, it is not the right tool.</p>
+  <p>Jobber is a Canadian product. It handles the core job management workflow well — quoting, scheduling, invoicing, client communication — but it has no UK compliance templates. There's no Gas Safety Record, Legionella or Water Regulations form built in, and no documented CIS support. Its custom checklists can take a signature, produce a PDF and be saved offline, so you could build your own forms, but you'd be designing and checking them yourself. It is priced in team-size bands rather than per user, and on Connect, the plan we compare teams on, it works out cheaper than per-user tools from about four staff, but that advantage does not outweigh the compliance gap for any Gas Safe registered plumbing business.</p>
+  <p>Jobber's strongest use case in UK plumbing is a larger water-only or drainage business — three or more field staff — where the main compliance paperwork is Water Regulations notices to the local water company and certificates for customers, and the primary challenge is managing team schedules, client communication, and cash flow. For that use case, Jobber is worth serious consideration. For any business doing gas work, it is not the right tool.</p>
 
   <h2>The Practical Decision</h2>
   <div class="verdict">
-    <p><strong>If you are Gas Safe registered and carry out Legionella risk assessments:</strong> Powered Now is the clear choice. It brings Gas Safety Records, Legionella templates, offline working, and native CIS into one system — no other tool in this category matches that full compliance stack. The quoting UI is less slick than Tradify's, but it is functional.</p>
-    <p><strong>If you are Gas Safe registered but do not carry out Legionella assessments:</strong> Tradify's added UK gas safety forms are now worth evaluating alongside Powered Now. Powered Now's compliance implementation is more established; Tradify's quoting workflow is faster. Run both 14-day free trials before committing — the right answer depends on whether the quoting speed advantage outweighs Powered Now's compliance maturity for your specific volume of gas work.</p>
-    <p><strong>If you are water-only (no gas work):</strong> Your compliance obligations are lighter — primarily Water Regulations notifications through WaterSafe. Any of the four tools can serve as your job management system. Tradify is a strong choice here because its quoting workflow is genuinely fast, it syncs with Xero, and the per-user pricing is predictable. Handle Water Regs notifications through the WaterSafe scheme portal separately.</p>
-    <p><strong>If you do commercial water system work requiring Legionella documentation:</strong> Powered Now again. The Legionella template is there; no other tool in this category has one.</p>
+    <p><strong>If you are Gas Safe registered and carry out Legionella risk assessments:</strong> Powered Now is the clear choice. It brings Gas Safety Records, Legionella templates, offline working, and native CIS (check which plan includes it) into one system — none of the other three tools here matches that full compliance stack. The quoting UI is less slick than Tradify's, but it is functional.</p>
+    <p><strong>If you are Gas Safe registered but do not carry out Legionella assessments:</strong> Tradify's UK gas safety forms are worth evaluating alongside Powered Now. Powered Now covers more compliance ground; Tradify's quoting workflow is faster. Run both 14-day free trials before committing — the right answer depends on whether the quoting speed advantage outweighs Powered Now's wider compliance coverage for your specific volume of gas work.</p>
+    <p><strong>If you are water-only (no gas work):</strong> Your compliance obligations are lighter — primarily Water Regulations notices to your local water company and certificates for your customers. Any of the four tools can serve as your job management system. Tradify is a strong choice here because its quoting workflow is genuinely fast, it syncs with Xero, and the per-user pricing is predictable. Handle Water Regs notices with your local water company separately.</p>
+    <p><strong>If you do commercial water system work requiring Legionella documentation:</strong> Powered Now again. The Legionella template is there; none of the other three tools here has one.</p>
   </div>
 
   <h2>What "Custom Forms" Actually Means</h2>
-  <p>ServiceM8 and Tradify's responses to compliance gaps often involve suggesting that users build custom forms. This deserves scrutiny. A custom form is not the same as a compliant certificate. For Gas Safety Records specifically, the Regulations prescribe what information the record must contain and that the engineer must sign it. A form that captures that information is a good start, but a certificate template that generates a properly formatted PDF — with your company name, the engineer's Gas Safe number, and a clear "safe to use" declaration — is what landlords, letting agents, and local authorities expect to see. Building that in a form builder, validating it against the regulatory requirements, and maintaining it as requirements change is a meaningful ongoing task.</p>
-  <p>Powered Now's Gas Safety Record form has been maintained against UK regulatory requirements since the product launched. That maintenance — knowing when a new field is required, when the format needs to change — is part of what the subscription funds. For most plumbing businesses, this is worth more than the flexibility of building from scratch.</p>
+  <p>ServiceM8 and Tradify's responses to compliance gaps often involve suggesting that users build custom forms. This deserves scrutiny. A custom form is not the same as a compliant certificate. For Gas Safety Records specifically, regulation 36 sets out what the record must contain, including the engineer's signature, but not what it has to look like. A form that captures all of it covers the legal content. The hard part is making sure no item can be skipped and that the PDF it produces is clear, with your company name and the engineer's Gas Safe number on it. Building that in a form builder, validating it against the regulatory requirements, and maintaining it as requirements change is a meaningful ongoing task.</p>
+  <p>With Powered Now, the gas form comes ready-made. That saves the build, though it's still worth checking it against the regulation 36 list during the trial. For most plumbing businesses, a ready-made form is worth more than the flexibility of building from scratch.</p>
 
   <h2>Offline Working and Compliance</h2>
-  <p>Gas safety and Legionella work often happens in locations with poor mobile signal: commercial basements, roof plant rooms, remote rural properties. This creates a practical problem for any compliance workflow that depends on cloud connectivity. Powered Now has offline capability — the certificate can be completed and signed without a signal, and it syncs when connectivity returns. Tradify requires signal. ServiceM8 lets you view and update synced jobs offline, but its Forms — including a CP12 form — can't be finalised until you have signal. Jobber added an offline mode in January 2026.</p>
-  <p>For a plumber doing annual boiler services on a rural estate with patchy signal, offline working is not a nice-to-have. A certificate that cannot be completed on-site must be completed later from notes — introducing error risk and delaying the issue of the record to the landlord, which has its own regulatory timeline (28 days from completion).</p>
+  <p>Gas safety and Legionella work often happens in locations with poor mobile signal: commercial basements, roof plant rooms, remote rural properties. This creates a practical problem for any compliance workflow that depends on cloud connectivity. Powered Now's mobile app works offline — the certificate can be completed without a signal, and it syncs when connectivity returns. Tradify requires signal. ServiceM8 lets you view and update synced jobs offline, but its Forms — including a CP12 form — can't be finalised until you have signal. Jobber has added an offline mode.</p>
+  <p>For a plumber doing annual boiler services on a rural estate with patchy signal, offline working is not a nice-to-have. A certificate that cannot be completed on-site must be completed later from notes — introducing error risk and delaying the record reaching the landlord, who has 28 days from the date of the check to give existing tenants a copy.</p>
 
   <h2>Frequently Asked Questions</h2>
   <div class="faq">
     <div class="faq-item">
       <p class="faq-q">Which job management software produces Gas Safety Records (CP12) for UK plumbers?</p>
-      <p class="faq-a">Powered Now and Tradify both include UK Landlord Gas Safety Record forms. Powered Now's implementation is longer-established and also covers Legionella risk assessments and native CIS. Tradify added UK gas safety certificate forms more recently — worth testing if you only need Gas Safety Records and not Legionella. ServiceM8 doesn't ship a Gas Safety Record template of its own, but a paid third-party CP12 form is available from its Form Store, or you can build one with its form builder. Jobber has no gas safety certificate capability.</p>
+      <p class="faq-a">Powered Now and Tradify both include UK Landlord Gas Safety Record forms. Powered Now also has a Legionella risk assessment template and CIS invoicing (check which plan includes CIS). Tradify's gas forms are worth testing if you only need Gas Safety Records and not Legionella. ServiceM8 doesn't ship a Gas Safety Record template of its own, but a paid third-party CP12 form is available from its Form Store, or you can build one with its form builder. Jobber has no gas certificate template; you could build one with its custom checklists, but you'd be designing and checking it yourself.</p>
     </div>
     <div class="faq-item">
       <p class="faq-q">Does any job management software handle Legionella risk assessments?</p>
-      <p class="faq-a">Powered Now includes a Legionella risk assessment template. No other tool in this comparison has one natively. ServiceM8 could theoretically be used to build one via its form builder, but this requires significant configuration.</p>
+      <p class="faq-a">Of the four tools here, only Powered Now includes a Legionella risk assessment template. ServiceM8's form builder and Jobber's custom checklists could be set up to record one, and Tradify's checklist forms may work too (check during the trial), but in each case you'd be building the form yourself.</p>
     </div>
     <div class="faq-item">
       <p class="faq-q">Can I use Tradify if I'm Gas Safe registered?</p>
-      <p class="faq-a">Yes, on its Pro (£37/mo) or Plus (£44/mo) plan — both include Gas Safety Record forms. On the entry Lite plan you'd need a separate system for them. If you also carry out Legionella assessments or need native CIS, Powered Now covers those and Tradify doesn't.</p>
+      <p class="faq-a">Yes, on its Pro (£37/mo) or Plus (£44/mo) plan — both include Gas Safety Record forms. On the entry Lite plan you'd need a separate system for them. If you also carry out Legionella assessments or need native CIS, Powered Now has a Legionella template and native CIS; Tradify has neither built in.</p>
     </div>
     <div class="faq-item">
       <p class="faq-q">Does job management software handle Water Regulations notifications?</p>
-      <p class="faq-a">No tool in this category has native Water Fittings Regulations notification capability. If you're an Approved Contractor under a WaterSafe scheme (CIPHE, APHC, or similar), you notify through that scheme's own portal. Your job management software can store a record of the notification reference against the job, but it does not replace the scheme notification itself.</p>
+      <p class="faq-a">No tool in this category notifies the water company for you. In England and Wales, notifiable work under the Water Supply (Water Fittings) Regulations 1999 (for example a bath over 230 litres, certain showers and pumps, a reverse osmosis unit, a garden watering system or a new building) needs notice to your local water company before it starts. Approved contractors, such as WaterSafe members, are excused advance notice for only a few of those items. On completion an approved contractor gives the customer a signed certificate, with a copy to the water company if the work was notifiable. Your job management software can store the notice reference and the certificate against the job, but it does not replace either.</p>
     </div>
     <div class="faq-item">
       <p class="faq-q">Does Powered Now integrate with Xero?</p>
-      <p class="faq-a">Yes. Powered Now integrates with Xero, Sage, and QuickBooks. The integration is functional; test it during the trial if hands-off Xero sync matters to you.</p>
+      <p class="faq-a">Yes, and with QuickBooks too. We couldn't confirm a Sage integration, so check with Powered Now first if you use Sage. The Xero integration is functional; test it during the trial if hands-off Xero sync matters to you.</p>
     </div>
     <div class="faq-item">
       <p class="faq-q">What is the best job management software for a Gas Safe plumber?</p>
-      <p class="faq-a">Powered Now for most Gas Safe plumbers. It brings Gas Safety Records, Legionella templates, offline working, and CIS invoicing into one system (check which plan includes CIS). Tradify has added UK gas safety certificate forms and is worth considering if your gas work is purely Gas Safety Records with no Legionella requirement — but Powered Now's compliance implementation is more established and covers more ground.</p>
+      <p class="faq-a">Powered Now for most Gas Safe plumbers. It brings Gas Safety Records, Legionella templates, offline working, and CIS invoicing into one system (check which plan includes CIS). Tradify also has UK gas safety certificate forms and is worth considering if your gas work is purely Gas Safety Records with no Legionella requirement — but Powered Now covers more ground.</p>
     </div>
   </div>
 
